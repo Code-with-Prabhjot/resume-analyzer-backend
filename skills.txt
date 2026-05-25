@@ -1,0 +1,1183 @@
+linear algebra
+calculus
+probability and statistics
+python programming
+data structures and algorithms
+numpy library
+pandas library
+scikit-learn
+supervised learning
+unsupervised learning
+deep learning
+neural networks architecture
+pytorch
+tensorflow
+natural language processing (nlp)
+computer vision
+reinforcement learning
+data preprocessing
+feature engineering
+model evaluation and validation
+convolutional neural networks (cnn)
+recurrent neural networks (rnn)
+transformers architecture
+gradient descent optimization
+ensemble learning
+dimensionality reduction
+xgboost
+sql for data science
+big data (spark)
+mlops
+cloud computing (aws/gcp/azure)
+docker and kubernetes for ml
+git and version control
+dvc (data version control)
+hyperparameter tuning
+transfer learning
+generative adversarial networks (gan)
+large language models (llms)
+model deployment (flask/fastapi)
+object detection
+image segmentation
+time series analysis
+recommender systems
+bayesian networks
+graph neural networks
+exploratory data analysis (eda)
+data visualization (matplotlib/seaborn)
+ab testing
+ml model interpretability (shap/lime)
+anomaly detection
+clustering algorithms
+regularization techniques
+bias-variance tradeoff
+stochastic gradient descent
+autoencoders
+word embeddings (word2vec)
+attention mechanism
+bert and elmo models
+fine-tuning models
+unit testing for ml code
+linux/bash scripting
+mlflow
+kubeflow
+api integration
+model quantization
+onnx (open neural network exchange)
+active learning
+semi-supervised learning
+weak supervision
+hyperparameter optimization (optuna)
+vector databases (pinecone/milvus)
+rag (retrieval-augmented generation)
+langchain
+prompt engineering
+stable diffusion models
+ml security (adversarial attacks)
+explainable ai (xai)
+distributed training
+cuda programming
+fpga/asic for ml
+edge ai
+tinyml
+federated learning
+multimodal machine learning
+recommendation ranking (ltr)
+speech recognition (asr)
+text-to-speech (tts)
+model compression
+neural architecture search (nas)
+data governance for ai
+ethical ai and fairness
+model monitoring and drift detection
+continuous integration for ml (ci/cd)
+ray framework
+model as a service (maas)
+data engineering for ml
+parallel computing
+model versioning
+causal inference
+bayesian optimization
+gaussian processes
+probabilistic graphical models
+hidden markov models (hmm)
+support vector machines (svm)
+k-nearest neighbors (knn)
+decision trees and random forests
+gradient boosting machines (gbm)
+lightgbm
+catboost
+feature selection techniques
+imbalanced data handling
+data augmentation (vision)
+text augmentation (nlp)
+backpropagation algorithm
+vanishing and exploding gradients
+batch normalization
+dropout and weight decay
+activation functions (relu/sigmoid/softmax)
+long short-term memory (lstm)
+gated recurrent units (gru)
+vision transformers (vit)
+u-net architecture
+resnet and inception models
+variational autoencoders (vae)
+diffusion models
+reinforcement learning from human feedback (rlhf)
+q-learning and deep q-networks (dqn)
+policy gradient methods
+proximal policy optimization (ppo)
+named entity recognition (ner)
+sentiment analysis
+topic modeling (lda)
+sequence-to-sequence models
+optical character recognition (ocr)
+face recognition
+multi-task learning
+meta-learning
+few-shot and zero-shot learning
+model pruning
+knowledge distillation
+tensorrt optimization
+onnx runtime
+tfx (tensorflow extended)
+bentoml
+seldon core
+feature stores (feast/hopsworks)
+evidently ai (monitoring)
+weights & biases (w&b)
+comet ml
+apache airflow for ml pipelines
+prefect (workflow orchestration)
+dask for parallel computing
+ray tune
+triton inference server
+pytorch lightning
+hugging face ecosystem
+sentence transformers
+vector search (faiss)
+semantic search
+llama-index
+autogen and ai agents
+lora and qlora (fine-tuning)
+peft (parameter-efficient fine-tuning)
+llm evaluation (ragas/langsmith)
+adversarial robustness
+differential privacy in ml
+homomorphic encryption for ml
+model lineage and provenance
+data drift and concept drift
+a/b testing for machine learning
+multi-armed bandits
+recommender cold start problem
+collaborative filtering
+matrix factorization
+market basket analysis
+geospatial machine learning
+survival analysis
+graph embeddings
+hypergraph neural networks
+knowledge graphs for ai
+link prediction
+model distillation for llms
+tensorboard for visualization
+plotly and dash for ml apps
+streamlit for ml prototyping
+gradio for model demos
+onnx-tensorrt
+sparse neural networks
+einsum for deep learning
+custom loss functions
+automatic differentiation
+mixed precision training
+gradient accumulation
+multimodal transformers
+clip (contrastive language-image pre-training)
+stable diffusion fine-tuning (dreambooth)
+ai governance and compliance
+structural analysis
+reinforced concrete design
+geotechnical engineering
+fluid mechanics
+surveying and geomatics
+transportation engineering
+environmental engineering
+hydrology and water resources
+construction project management
+steel structural design
+autocad proficiency
+bim - building information modeling
+matrix methods of structural analysis
+soil mechanics
+foundation engineering
+highway engineering
+wastewater treatment design
+construction estimating and costing
+gis - geographic information systems
+bridge engineering
+prestressed concrete
+seismology and earthquake engineering
+pavement design
+traffic flow theory
+urban planning
+hydraulics and pneumatic systems
+engineering geology
+finite element analysis - fea
+quantity surveying
+contracts and tender management
+structural dynamics
+masonry structure design
+open channel hydraulics
+irrigation engineering
+remote sensing
+p6 primavera and ms project
+structural health monitoring
+tunnel engineering
+dam engineering
+coastal engineering
+airport engineering
+railway engineering
+timber structural design
+composite material design
+advanced concrete technology
+civil engineering drawing
+solid mechanics
+total station and dgps
+photogrammetry
+groundwater hydrology
+air pollution control
+solid waste management
+rock mechanics
+geosynthetics
+retaining wall design
+safety and risk management
+green building and leed
+building materials and testing
+precast concrete construction
+rehabilitation of structures
+tall building design
+drainage system design
+harbor and port engineering
+slope stability analysis
+plastic analysis of structures
+computer-aided structural design
+values and ethics in engineering
+land reclamation
+fire safety in buildings
+pipeline engineering
+sustainable urban drainage systems (suds)
+offshore structural engineering
+building services engineering
+dredging engineering
+valuation of real estate
+shell and spatial structures
+disaster management
+architectural design integration
+civil engineering law
+building acoustics
+finite volume method
+scada in water systems
+renewable energy integration in infrastructure
+smart cities infrastructure
+vulnerability analysis of structures
+cold-formed steel design
+pavement management systems
+hydrographic surveying
+landfill engineering
+seepage and consolidation
+advanced surveying techniques
+modular construction
+civil engineering informatics
+industrial structures design
+advanced fluid mechanics
+water chemistry for engineers
+heavy equipment management
+computational fluid dynamics (cfd)
+soil-structure interaction
+post-tensioning design
+deep foundation testing
+traffic signal timing
+pavement maintenance and rehabilitation
+sludge management and disposal
+stormwater modeling (swmm)
+river engineering
+blast-resistant design
+wind engineering
+geotechnical instrumentation
+advanced foundation design
+dynamic analysis of foundations
+mass transit system planning
+sustainable pavement materials
+water distribution network design
+hec-ras modeling
+earth-retaining structures design
+seismic retrofit of structures
+advanced steel design (lrfd)
+non-destructive testing (ndt) in civil
+ground improvement techniques
+structural reliability and risk
+offshore geotechnical engineering
+advanced construction equipment
+value engineering in construction
+arbitration and dispute resolution
+energy efficient building design
+lifecycle cost analysis (lcca)
+smart building technology
+pre-engineered buildings (peb)
+repair and retrofitting of masonry
+cable-stayed and suspension bridges
+environmental impact assessment (eia)
+hazardous waste management
+climate change adaptation in infrastructure
+urban drainage modeling
+sediment transport
+breakwater and pier design
+port planning and logistics
+hydro-electric power plant design
+industrial waste treatment
+bioremediation techniques
+noise pollution modeling
+landslide mitigation and analysis
+advanced geodesy
+uav/drone surveying
+lidar data processing
+building forensic engineering
+repair and rehabilitation of bridges
+underground construction management
+concrete durability and service life
+steel-concrete composite design
+buckling analysis of structures
+advanced soil mechanics
+saturated and unsaturated flow
+geotechnical earthquake engineering
+deep excavation design
+anchors and soil nailing
+intelligent transportation systems (its)
+pavement evaluation and management
+advanced pavement materials
+airport terminal planning
+railway track engineering
+water audit and conservation
+desalination plant design
+rainwater harvesting systems
+pipe network analysis (epanet)
+transient analysis in pipelines
+structural glass design
+aluminum structural design
+smart materials in civil engineering
+additive manufacturing in construction (3d printing)
+robotic construction
+augmented reality in construction
+virtual reality in bim
+big data in civil engineering
+blockchain in construction
+internet of things (iot) in infrastructure
+circular economy in construction
+carbon footprint analysis of structures
+green roofs and walls design
+sustainable site development
+passive house design
+indoor air quality management
+building envelope engineering
+curtain wall design
+mep coordination
+fire suppression systems design
+elevator and escalator systems
+building energy modeling (bem)
+lighting design and analysis
+hvac system integration
+plumbing and drainage design
+facilities management
+real estate development finance
+strategic infrastructure planning
+public-private partnerships (ppp) in construction
+professional liability and risk
+data structures and algorithms
+operating systems
+computer networks
+database management systems
+system design
+object oriented programming
+discrete mathematics
+computer architecture
+software engineering
+compiler design
+theory of computation
+python programming
+java programming
+c plus plus
+javascript
+typescript
+go programming
+rust programming
+sql
+html5
+css3
+react js
+node js
+express js
+mongodb
+postgresql
+docker
+kubernetes
+aws
+git
+linux administration
+shell scripting
+rest api
+graphql
+microservices
+machine learning
+deep learning
+natural language processing
+computer vision
+tensorflow
+pytorch
+scikit learn
+pandas
+numpy
+ci cd
+jenkins
+terraform
+ansible
+cybersecurity
+penetration testing
+cryptography
+blockchain
+smart contracts
+solidity
+android development
+ios development
+flutter
+react native
+kotlin
+swift
+unity engine
+unreal engine
+web sockets
+redis
+elasticsearch
+kafka
+rabbitmq
+agile methodology
+scrum
+test driven development
+unit testing
+selenium
+jest
+cypress
+postman
+serverless computing
+terraform cloud
+prometheus
+grafana
+markdown
+bash scripting
+regular expressions
+oauth 2.0
+json web tokens
+cryptographic hashing
+data visualization
+internet of things
+raspberry pi
+arduino
+robotics
+software testing life cycle
+bug tracking
+user experience design
+responsive web design
+sass
+tailwind css
+grpc
+nginx
+load balancing
+caching strategies
+apache spark
+apache hadoop
+microsoft azure
+google cloud platform
+vue js
+svelte
+next js
+webassembly
+scala programming
+haskell programming
+functional programming
+design patterns
+solid principles
+apache cassandra
+amazon dynamodb
+neo4j
+apache airflow
+snowflake
+apache flink
+clickhouse
+apache hive
+apache spark streaming
+databricks
+pyspark
+r programming
+matlab
+julia programming
+perl
+ruby on rails
+django
+flask
+fastapi
+spring boot
+asp.net core
+laravel
+php
+graphql apollo
+webgl
+three js
+d3 js
+socket io
+progressive web apps
+webrtc
+openid connect
+saml
+iam basics
+ssl tls
+ssh protocol
+burp suite
+wireshark
+reverse engineering
+malware analysis
+computer forensics
+zero trust architecture
+cloud security
+devsecops
+infrastructure as code
+pulumi
+cloudformation
+helm
+service mesh istio
+site reliability engineering
+elk stack
+splunk
+distributed systems theory
+paxos and raft
+cap theorem
+consistency models
+micro frontends
+event driven architecture
+cqrs and event sourcing
+hexagonal architecture
+domain driven design
+activemq
+apache nifi
+bigquery
+amazon redshift
+vector databases
+pinecone
+langchain
+generative ai
+reinforcement learning
+gans
+feature engineering
+mlops
+mlflow
+kubeflow
+edge computing
+quantum computing
+embedded systems
+rtos
+fpga programming
+assembly language
+llvm basics
+gdb debugger
+valgrind
+performance tuning
+graph theory basics
+circuit theory
+digital electronics
+analog electronics
+power systems analysis
+control systems
+electromagnetics
+signals and systems
+power electronics
+electrical machines
+microprocessors
+microcontrollers
+embedded systems
+vlsi design
+pcb design
+renewable energy systems
+solar photovoltaics
+wind energy engineering
+smart grid technology
+high voltage engineering
+power system protection
+electrical safety and codes
+plc programming
+scada systems
+matlab and simulink
+fpga design
+digital signal processing
+instrumentation and measurement
+sensors and transducers
+antennas and propagation
+communication systems
+electric vehicle technology
+battery management systems
+power quality
+hvdc transmission
+facts devices
+network synthesis
+verilog hdl
+vhdl
+arduino programming
+raspberry pi
+arm architecture
+rtos
+cmos analog design
+asic design
+mixed signal design
+wireless communications
+optical fiber communications
+satellite communications
+microwave engineering
+radar systems
+fuzzy logic control
+neural networks for control
+machine learning for power systems
+pspice simulation
+ltspice simulation
+multisim
+etap
+digsilent powerfactory
+autocad electrical
+lighting design
+earthing and grounding systems
+substation engineering
+switchgear and protection
+energy auditing
+demand side management
+electrical drives
+induction motor control
+bldc motor control
+stepper motor control
+power system dynamics
+state estimation
+load flow analysis
+short circuit analysis
+emi/emc
+robotic automation
+internet of things (iot)
+cyber security for power grids
+wireless power transfer
+superconducting materials
+fuel cell technology
+energy storage systems
+microgrid design
+digital twins
+dcs
+industrial automation
+mechatronics
+hmi design
+power system stability
+optimal power flow
+soft switching converters
+resonant converters
+multilevel inverters
+active power filters
+power system transients
+insulation coordination
+electrical drafting
+relay coordination
+photovoltaic system design
+hydroelectric power plants
+thermal power plant engineering
+nuclear instrumentation and control
+smart energy meters
+phasor measurement units
+wide area monitoring systems
+power system harmonics
+passive harmonic filters
+surge protection devices
+lightning protection systems
+power cable sizing
+busbar trunking systems
+transformer diagnostics
+gas insulated switchgear
+circuit breaker maintenance
+condition monitoring of machines
+partial discharge measurement
+insulation resistance testing
+dielectric loss analysis
+electric motor rewinding
+variable frequency drive configuration
+soft starter commissioning
+servo motor tuning
+linear induction motors
+magnetic levitation
+superconducting magnetic energy storage
+flywheel energy storage
+supercapacitors
+lithium-ion battery chemistry
+battery modeling and simulation
+soc and soh estimation algorithms
+ev charging infrastructure design
+vehicle-to-grid integration
+on-board charger design
+traction inverter control
+wireless sensor network design
+lora technology
+zigbee protocol
+5g physical layer
+6g communication research
+software defined radio
+cognitive radio networks
+massive mimo
+beamforming techniques
+millimeter wave circuit design
+silicon photonics
+laser diode drivers
+optical isolators and couplers
+image signal processing
+machine vision systems
+speech and audio processing
+adaptive signal filtering
+multirate dsp
+wavelet transform applications
+kalman filter implementation
+particle filter algorithms
+robust control theory
+model predictive control
+adaptive control systems
+nonlinear system analysis
+optimal control methods
+sliding mode control design
+h-infinity control theory
+mechatronic system design
+electro-pneumatic control
+cnc electronic systems
+industrial iot architecture
+edge computing for smart grids
+cloud computing for power utilities
+modbus rtu/tcp
+profibus and profinet protocols
+ethercat communication
+can bus interface design
+spi and i2c firmware
+uart and rs-485 serial
+usb 3.0 hardware design
+pcie interface design
+ethernet phy design
+signal integrity simulation
+power integrity simulation
+thermal management of pcbs
+high speed digital design
+flexible electronics design
+mems sensor fabrication
+medical imaging systems
+magnetic resonance imaging hardware
+computed tomography electronics
+cardiac pacemakers and icds
+neural signal processing
+electrochemical biosensors
+wearable physiological monitors
+iso 9001 quality standards
+iec 61508 functional safety
+iso 26262 automotive safety
+ul 508a industrial panels
+ce compliance testing
+rohs and weee directives
+electrical patent law
+technical report writing for electrical engineers
+semiconductor physics
+circuit analysis
+analog circuit design
+digital logic design
+verilog hdl
+vhdl
+fpga programming
+microcontroller programming
+embedded c
+pcb design and layout
+signal integrity
+electromagnetic compatibility
+vlsi design
+cmos fabrication
+operational amplifiers
+power electronics
+digital signal processing
+control systems
+communication systems
+rf circuit design
+antenna theory
+microwave engineering
+wireless communications
+optical fiber communications
+arm architecture
+rtos
+i2c protocol
+spi protocol
+uart communication
+can bus
+usb protocol
+ethernet in embedded systems
+sensor interfacing
+adc and dac circuits
+oscillator circuits
+filter design
+ltspice simulation
+pspice simulation
+matlab and simulink
+system-on-chip design
+static timing analysis
+physical design (vlsi)
+low power vlsi design
+asic design flow
+mixed signal design
+hdl simulation
+logic synthesis
+design for testability (dft)
+python for engineers
+linux for embedded systems
+device driver development
+internet of things (iot) architecture
+mqtt protocol
+bluetooth low energy
+lora and lorawan
+robotics and automation
+mechatronics
+industrial automation
+plc programming
+scada systems
+power management ic design
+battery management systems
+electric vehicle electronics
+consumer electronics design
+medical electronics
+wearable electronics
+avionics
+automotive electronics
+audio engineering
+image processing
+computer vision
+artificial intelligence in hardware
+machine learning for signal processing
+neural networks in hardware
+cybersecurity for embedded systems
+cloud computing for iot
+edge computing
+mems technology
+nanotechnology in electronics
+flexible electronics
+optoelectronics
+photonics
+bio-electronics
+hardware trojans detection
+side channel analysis
+fault tolerant systems
+reliability engineering
+technical report writing
+project management for engineers
+quality management systems
+six sigma
+lean manufacturing
+supply chain for electronics
+intellectual property for engineers
+professional ethics
+effective communication
+teamwork and leadership
+critical thinking
+fpga dsp implementation
+high-speed pcb routing
+emi/emc testing and compliance
+smps design and analysis
+rf filter design
+pll and frequency synthesizers
+low-noise amplifier design
+impedance matching techniques
+systemverilog for verification
+uvm (universal verification methodology)
+formal verification
+physical verification (drc/lvs)
+parasitic extraction
+clock tree synthesis
+power grid analysis
+standard cell library characterization
+analog layout design
+rfic design
+sigfox technology
+nb-iot (narrowband iot)
+gnss/gps receiver design
+nfc (near field communication)
+radar system engineering
+lidar sensor integration
+fpga soft core processors (nios/microblaze)
+arm cortex-m dma controller
+bootloader development
+over-the-air (ota) updates
+embedded unit testing (unity/cmock)
+bare metal programming
+motor control algorithms (foc)
+pid controller tuning
+industrial communication (profibus/profinet)
+ethercat protocol
+opc-ua communication
+human machine interface (hmi) design
+energy harvesting electronics
+solar charge controller design
+wireless power transfer
+high-voltage circuit design
+electrostatic discharge (esd) protection
+thermal simulation for electronics
+reliability testing (halt/hass)
+failure mode and effects analysis (fmea)
+dfm (design for manufacturing) for pcbs
+surface mount technology (smt) processes
+lead-free soldering standards (rohs)
+medical imaging electronics
+pacemaker and defibrillator electronics
+bio-potential electrode design
+automotive lin bus
+flexray communication
+adas (advanced driver assistance systems) hardware
+silicon photonics design
+laser diode driver design
+optical fiber sensing
+fpga video processing
+fpga based neural network acceleration
+tinyml implementation
+embedded security (secure boot/trustzone)
+hardware security (puf - physical unclonable functions)
+side channel attack countermeasures
+jtag debugging and boundary scan
+oscilloscope advanced measurement techniques
+spectrum analyzer operation
+vector network analyzer (vna) calibration
+logic analyzer analysis
+iec 61508 functional safety standard
+iso 26262 automotive safety standard
+ul 94 flammability standards
+environmental stress screening (ess)
+ipc-610 pcb assembly standards
+rf shielding design
+via design and stitching
+differential pair routing
+serdes (serializer/deserializer) design
+pci express (pcie) hardware design
+ddr4/ddr5 memory interfacing
+mipi dsi/csi interface design
+lvds signaling
+power integrity (pi) analysis
+mixed-signal pcb layout grounding
+rigid-flex pcb design
+ic packaging technology
+die stacking and 3d ic
+rf testing (vswr/return loss)
+acoustic sensor interfacing
+capacitive touch sensor design
+haptic feedback electronics
+real-time data acquisition (daq)
+fpga timing constraints (sdc)
+vitis hls (high level synthesis)
+system-on-module (som) integration
+embedded gui development (touchgfx/lvgl)
+usb power delivery (usb-pd)
+can-fd (flexible data-rate)
+modbus tcp/ip integration
+electronics cooling fan control
+thermodynamics
+fluid mechanics
+heat transfer
+material science
+strength of materials
+kinematics of machinery
+dynamics of machinery
+machine design
+engineering mechanics
+metrology and measurements
+autocad
+solidworks
+catia
+ansys
+matlab
+geometric dimensioning and tolerancing
+finite element analysis
+computational fluid dynamics
+manufacturing processes
+cnc programming
+ic engines
+refrigeration and air conditioning
+hvac design
+power plant engineering
+automobile engineering
+robotics
+mechatronics
+hydraulic systems
+pneumatic systems
+steam turbines
+gas turbines
+welding technology
+casting processes
+machining and machine tools
+theory of vibrations
+industrial engineering
+operations research
+total quality management
+lean manufacturing
+six sigma
+project management
+additive manufacturing
+aerospace engineering
+turbo machinery
+mechanism synthesis
+tribology
+composite materials
+non-destructive testing
+engineering drawing
+fusion 360
+ptc creo
+nx-unigraphics
+bim for mechanical
+piping design
+boiler operations
+finite element method
+rapid prototyping
+supply chain management
+reverse engineering
+industrial safety
+solar energy engineering
+renewable energy systems
+fuel cells
+heat exchanger design
+gear design
+bearing design
+fatigue and fracture
+structural analysis
+control systems
+sensors
+plc programming
+scada systems
+mems
+material handling
+plm
+erp for manufacturing
+value engineering
+cost estimation
+technical writing
+plant layout
+metal forming
+metallurgy
+plastics engineering
+mold and die design
+surface engineering
+cryogenic engineering
+acoustics
+pump technology
+valve technology
+instrumentation
+digital manufacturing
+industry 4.0
+iot for mechanical
+reliability engineering
+maintenance management
+structural health monitoring
+nanotechnology
+environmental engineering
+kinetic energy recovery systems
+computational structural mechanics
+aeroelasticity
+combustion modeling
+vehicle dynamics
+chassis design
+suspension systems
+braking systems
+internal combustion engine calibration
+computational acoustics
+multiphase flow
+multibody dynamics
+microfluidics
+bio-mechanics
+orthopedic implants design
+prosthetics and orthotics
+shape memory alloys
+smart materials
+piezoelectric sensors and actuators
+high-pressure vessel design
+wind turbine engineering
+hydroelectric power engineering
+geothermal energy systems
+nuclear reactor thermal-hydraulics
+gas dynamics
+supersonic and hypersonic flows
+boundary layer theory
+turbulence modeling
+thermal management of electronics
+battery thermal management systems
+electric vehicle powertrain
+hybrid electric vehicles
+motor control for evs
+transmission systems design
+automatic transmissions
+continuous variable transmissions
+differential and final drives
+steering geometry
+tire mechanics
+crashworthiness and impact analysis
+nvh analysis
+modal analysis
+rotor dynamics
+experimental stress analysis
+strain gauge technology
+photoelasticity
+digital image correlation
+laser scanning and metrology
+coordinate measuring machine
+optical metrology
+tolerancing stack-up analysis
+design for manufacturing
+design for assembly
+design for environment
+life cycle assessment
+sustainable manufacturing
+powder metallurgy
+metal injection molding
+die casting technology
+investment casting
+forging process design
+extrusion and drawing
+sheet metal fabrication
+jig and fixture design
+tool and die making
+cutting tool technology
+non-traditional machining
+laser machining
+abrasive waterjet machining
+ultrasonic machining
+micro-machining
+nanomanufacturing
+assembly line balancing
+production planning and control
+inventory management
+warehouse automation
+automated guided vehicles
+industrial manipulators
+end effector design
+robot path planning
+machine vision for robotics
+human-robot collaboration
+haptics
+pneumatic logic control
+electro-hydraulics
+proportional and servo valves
+compressor technology
+fan and blower design
+cooling tower engineering
+district heating and cooling
+energy auditing
+waste heat recovery
+combined heat and power
+steam generator engineering
+condenser design
+pipeline stress analysis
+fire protection engineering
+plumbing and drainage systems
+cleanroom technology
+laboratory equipment design
