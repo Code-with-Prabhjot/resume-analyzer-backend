@@ -10,7 +10,11 @@ import json
 from datetime import datetime
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "https://resume-analyzer-frontend-gold.vercel.app", 
+    "http://localhost:3000",
+    "http://localhost:5173" 
+])
 
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024
 
