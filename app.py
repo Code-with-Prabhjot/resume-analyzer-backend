@@ -8,6 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 from datetime import datetime
+from utils import SKILLS_DB, normalize_skill
 
 app = Flask(__name__)
 CORS(app, origins=[
@@ -30,44 +31,6 @@ except Exception as e:
 
 nlp = spacy.load("en_core_web_sm")
 
-def load_skills():
-    try:
-        with open("skills.txt", "r", encoding="utf-8") as f:
-            raw_skills = [line.strip().lower() for line in f if line.strip()]
-            
-            cleaned_skills = set()
-            for skill in raw_skills:
-                # Tell Python to automatically delete redundant words!
-                skill = skill.replace(" programming", "")
-                skill = skill.replace(" framework", "")
-                skill = skill.replace(" development", "")
-                
-                cleaned_skills.add(skill)
-                
-            return list(cleaned_skills)
-    except Exception as e:
-        print("Error loading skills:", e)
-        return []
-
-SKILLS_DB = load_skills()
-
-SKILL_SYNONYMS = {
-    "ml": "machine learning",
-    "dl": "deep learning",
-    "js": "javascript",
-    "node": "node.js",
-    "reactjs": "react",
-    "html5": "html",  
-    "css3": "css",
-    "c++": "c plus plus",   
-    "c#": "c sharp",
-    "dot net": ".net",
-    "aws": "amazon web services",
-    "gcp": "google cloud"
-}
-
-def normalize_skill(skill):
-    return SKILL_SYNONYMS.get(skill.lower(), skill.lower())
 
 def extract_text(file):
     try:
