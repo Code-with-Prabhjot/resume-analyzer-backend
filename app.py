@@ -124,8 +124,24 @@ def compute_similarity(resume, jd):
 def calculate_score(similarity, matched, total_required):
     if total_required == 0:
         return round(similarity, 2)
+        
     skill_ratio = len(matched) / total_required
-    final_score = (0.2 * similarity) + (0.8 * skill_ratio * 100)
+    
+    # 1. Use highly tuned weights (85% Skills / 15% Text Context)
+    base_score = (0.15 * similarity) + (0.85 * skill_ratio * 100)
+    
+    # 2. ANTI-CHEAT LOGIC: Detect plain text keyword stuffing
+    # If they match skills but text similarity is under 10%, they are cheating
+    if skill_ratio > 0.70 and similarity < 10.0:
+        # Apply a flat 25 point penalty for lack of context/experience
+        final_score = base_score - 25.0
+        print("🚨 ANTI-CHEAT: Keyword stuffing detected (Low similarity relative to high skills). Penalty applied.")
+    else:
+        final_score = base_score
+        
+    # Ensure the score stays within human bounds (0 to 100)
+    final_score = max(0.0, min(100.0, final_score))
+    
     return round(final_score, 2)
 
 def generate_roadmap(missing_skills):
