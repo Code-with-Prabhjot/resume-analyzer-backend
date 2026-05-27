@@ -125,8 +125,12 @@ def calculate_score(similarity, matched, total_required):
     return round(final_score, 2)
 
 def generate_roadmap(missing_skills):
+    # 1. THE PERFECT MATCH CHECK
+    # Return an empty dictionary instead of a list
+    if not missing_skills:
+        return {} 
+
     phases = [
-        # --- PHASE 1 HEADING UPDATED HERE ---
         {"phase": "Phase 1: Basics", "skills": []},
         {"phase": "Phase 2: Intermediate", "skills": []},
         {"phase": "Phase 3: Advanced", "skills": []},
@@ -137,8 +141,13 @@ def generate_roadmap(missing_skills):
         phase_index = i % 4
         phases[phase_index]["skills"].append(skill)
 
-    roadmap = []
+    game_plan = {} # <-- Changed to a dictionary to match frontend expectations
+    
     for phase in phases:
+        # 2. THE EMPTY PHASE FILTER
+        if not phase["skills"]:
+            continue 
+
         phase_tasks = []
         
         for skill in phase["skills"]:
@@ -160,14 +169,10 @@ def generate_roadmap(missing_skills):
                 "links": links
             })
 
-        roadmap.append({
-            "phase": phase["phase"],
-            "tasks": [f"Learn {skill.title()}" for skill in phase["skills"]],
-            "resources": "YouTube / Official Docs / Practice Platforms",
-            "detailed_tasks": phase_tasks 
-        })
+        # Save directly to the dictionary using the Phase name as the key
+        game_plan[phase["phase"]] = phase_tasks 
         
-    return roadmap
+    return game_plan
 
 @app.route('/api/analyze', methods=['POST'])
 def analyze():
@@ -205,6 +210,9 @@ def analyze():
         similarity = compute_similarity(clean_resume, clean_jd)
         score = calculate_score(similarity, matched_skills, len(jd_skills))
         roadmap = generate_roadmap(missing_skills)
+        
+        # --- NEW PERFECT MATCH FLAG ---
+        is_perfect = len(missing_skills) == 0
 
         try:
             with open("server_logs.txt", "a") as log_file:
@@ -214,11 +222,13 @@ def analyze():
         except Exception as log_error:
             print("Warning: Could not write to log file -", log_error)
 
+        # --- UPDATED JSON RESPONSE TO MATCH HER FRONTEND EXACTLY ---
         return jsonify({
-            "score": score,
-            "matchedSkills": matched_skills,
-            "missingSkills": missing_skills,
-            "roadmap": roadmap
+            "match_score": score,
+            "nailed_skills": matched_skills,
+            "needs_work": missing_skills,
+            "is_perfect_match": is_perfect,
+            "game_plan": roadmap
         })
 
     except Exception as e:
