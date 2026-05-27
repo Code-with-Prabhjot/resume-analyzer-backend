@@ -5925,5 +5925,3041 @@
             "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=laboratory+equipment+design",
             "reading": "https://en.wikipedia.org/wiki/Special:Search?search=laboratory+equipment+design"
         }
+    },
+    "information science": {
+        "data structures": {
+            "youtube": "https://www.youtube.com/results?search_query=data+structures+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=data+structures",
+            "reading": "https://scholar.google.com/scholar?q=data+structures"
+        },
+        "algorithms": {
+            "youtube": "https://www.youtube.com/results?search_query=algorithms+tutorial",
+            "course": "https://www.classcentral.com/search?q=algorithms",
+            "reading": "https://scholar.google.com/scholar?q=algorithms"
+        },
+        "object oriented programming": {
+            "youtube": "https://www.youtube.com/results?search_query=object+oriented+programming+tutorial",
+            "course": "https://www.edx.org/search?q=object+oriented+programming",
+            "reading": "https://scholar.google.com/scholar?q=object+oriented+programming"
+        },
+        "database management systems": {
+            "youtube": "https://www.youtube.com/results?search_query=database+management+systems+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=database+management+systems",
+            "reading": "https://scholar.google.com/scholar?q=database+management+systems"
+        },
+        "sql": {
+            "youtube": "https://www.youtube.com/results?search_query=sql+tutorial",
+            "course": "https://www.coursera.org/search?query=sql",
+            "reading": "https://scholar.google.com/scholar?q=sql"
+        },
+        "advanced sql": {
+            "youtube": "https://www.youtube.com/results?search_query=advanced+sql+tutorial",
+            "course": "https://www.classcentral.com/search?q=advanced+sql",
+            "reading": "https://scholar.google.com/scholar?q=advanced+sql"
+        },
+        "operating systems": {
+            "youtube": "https://www.youtube.com/results?search_query=operating+systems+tutorial",
+            "course": "https://www.edx.org/search?q=operating+systems",
+            "reading": "https://scholar.google.com/scholar?q=operating+systems"
+        },
+        "computer networks": {
+            "youtube": "https://www.youtube.com/results?search_query=computer+networks+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=computer+networks",
+            "reading": "https://scholar.google.com/scholar?q=computer+networks"
+        },
+        "software engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=software+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=software+engineering",
+            "reading": "https://scholar.google.com/scholar?q=software+engineering"
+        },
+        "java programming": {
+            "youtube": "https://www.youtube.com/results?search_query=java+programming+tutorial",
+            "course": "https://www.coursera.org/search?query=java+programming",
+            "reading": "https://scholar.google.com/scholar?q=java+programming"
+        },
+        "python programming": {
+            "youtube": "https://www.youtube.com/results?search_query=python+programming+tutorial",
+            "course": "https://www.classcentral.com/search?q=python+programming",
+            "reading": "https://scholar.google.com/scholar?q=python+programming"
+        },
+        "c   programming": {
+            "youtube": "https://www.youtube.com/results?search_query=c+++programming+tutorial",
+            "course": "https://www.edx.org/search?q=c+++programming",
+            "reading": "https://scholar.google.com/scholar?q=c+++programming"
+        },
+        "web development": {
+            "youtube": "https://www.youtube.com/results?search_query=web+development+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=web+development",
+            "reading": "https://scholar.google.com/scholar?q=web+development"
+        },
+        "html5": {
+            "youtube": "https://www.youtube.com/results?search_query=html5+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=html5",
+            "reading": "https://scholar.google.com/scholar?q=html5"
+        },
+        "css3": {
+            "youtube": "https://www.youtube.com/results?search_query=css3+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=css3",
+            "reading": "https://scholar.google.com/scholar?q=css3"
+        },
+        "javascript": {
+            "youtube": "https://www.youtube.com/results?search_query=javascript+tutorial",
+            "course": "https://www.coursera.org/search?query=javascript",
+            "reading": "https://scholar.google.com/scholar?q=javascript"
+        },
+        "react": {
+            "youtube": "https://www.youtube.com/results?search_query=react+tutorial",
+            "course": "https://www.classcentral.com/search?q=react",
+            "reading": "https://scholar.google.com/scholar?q=react"
+        },
+        "node js": {
+            "youtube": "https://www.youtube.com/results?search_query=node+js+tutorial",
+            "course": "https://www.edx.org/search?q=node+js",
+            "reading": "https://scholar.google.com/scholar?q=node+js"
+        },
+        "rest api development": {
+            "youtube": "https://www.youtube.com/results?search_query=rest+api+development+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=rest+api+development",
+            "reading": "https://scholar.google.com/scholar?q=rest+api+development"
+        },
+        "git": {
+            "youtube": "https://www.youtube.com/results?search_query=git+tutorial",
+            "course": "https://www.edx.org/search?q=git",
+            "reading": "https://scholar.google.com/scholar?q=git"
+        },
+        "github": {
+            "youtube": "https://www.youtube.com/results?search_query=github+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=github",
+            "reading": "https://scholar.google.com/scholar?q=github"
+        },
+        "linux": {
+            "youtube": "https://www.youtube.com/results?search_query=linux+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=linux",
+            "reading": "https://scholar.google.com/scholar?q=linux"
+        },
+        "cloud computing": {
+            "youtube": "https://www.youtube.com/results?search_query=cloud+computing+tutorial",
+            "course": "https://www.coursera.org/search?query=cloud+computing",
+            "reading": "https://scholar.google.com/scholar?q=cloud+computing"
+        },
+        "amazon web services": {
+            "youtube": "https://www.youtube.com/results?search_query=amazon+web+services+tutorial",
+            "course": "https://www.classcentral.com/search?q=amazon+web+services",
+            "reading": "https://scholar.google.com/scholar?q=amazon+web+services"
+        },
+        "microsoft azure": {
+            "youtube": "https://www.youtube.com/results?search_query=microsoft+azure+tutorial",
+            "course": "https://www.edx.org/search?q=microsoft+azure",
+            "reading": "https://scholar.google.com/scholar?q=microsoft+azure"
+        },
+        "google cloud platform": {
+            "youtube": "https://www.youtube.com/results?search_query=google+cloud+platform+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=google+cloud+platform",
+            "reading": "https://scholar.google.com/scholar?q=google+cloud+platform"
+        },
+        "docker": {
+            "youtube": "https://www.youtube.com/results?search_query=docker+tutorial",
+            "course": "https://www.classcentral.com/search?q=docker",
+            "reading": "https://scholar.google.com/scholar?q=docker"
+        },
+        "kubernetes": {
+            "youtube": "https://www.youtube.com/results?search_query=kubernetes+tutorial",
+            "course": "https://www.edx.org/search?q=kubernetes",
+            "reading": "https://scholar.google.com/scholar?q=kubernetes"
+        },
+        "data analytics": {
+            "youtube": "https://www.youtube.com/results?search_query=data+analytics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=data+analytics",
+            "reading": "https://scholar.google.com/scholar?q=data+analytics"
+        },
+        "data visualization": {
+            "youtube": "https://www.youtube.com/results?search_query=data+visualization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=data+visualization",
+            "reading": "https://scholar.google.com/scholar?q=data+visualization"
+        },
+        "statistics for data science": {
+            "youtube": "https://www.youtube.com/results?search_query=statistics+for+data+science+tutorial",
+            "course": "https://www.coursera.org/search?query=statistics+for+data+science",
+            "reading": "https://scholar.google.com/scholar?q=statistics+for+data+science"
+        },
+        "machine learning": {
+            "youtube": "https://www.youtube.com/results?search_query=machine+learning+tutorial",
+            "course": "https://www.classcentral.com/search?q=machine+learning",
+            "reading": "https://scholar.google.com/scholar?q=machine+learning"
+        },
+        "deep learning": {
+            "youtube": "https://www.youtube.com/results?search_query=deep+learning+tutorial",
+            "course": "https://www.edx.org/search?q=deep+learning",
+            "reading": "https://scholar.google.com/scholar?q=deep+learning"
+        },
+        "artificial intelligence": {
+            "youtube": "https://www.youtube.com/results?search_query=artificial+intelligence+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=artificial+intelligence",
+            "reading": "https://scholar.google.com/scholar?q=artificial+intelligence"
+        },
+        "natural language processing": {
+            "youtube": "https://www.youtube.com/results?search_query=natural+language+processing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=natural+language+processing",
+            "reading": "https://scholar.google.com/scholar?q=natural+language+processing"
+        },
+        "computer vision": {
+            "youtube": "https://www.youtube.com/results?search_query=computer+vision+tutorial",
+            "course": "https://www.coursera.org/search?query=computer+vision",
+            "reading": "https://scholar.google.com/scholar?q=computer+vision"
+        },
+        "generative ai": {
+            "youtube": "https://www.youtube.com/results?search_query=generative+ai+tutorial",
+            "course": "https://www.classcentral.com/search?q=generative+ai",
+            "reading": "https://scholar.google.com/scholar?q=generative+ai"
+        },
+        "prompt engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=prompt+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=prompt+engineering",
+            "reading": "https://scholar.google.com/scholar?q=prompt+engineering"
+        },
+        "cybersecurity": {
+            "youtube": "https://www.youtube.com/results?search_query=cybersecurity+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=cybersecurity",
+            "reading": "https://scholar.google.com/scholar?q=cybersecurity"
+        },
+        "ethical hacking": {
+            "youtube": "https://www.youtube.com/results?search_query=ethical+hacking+tutorial",
+            "course": "https://www.coursera.org/search?query=ethical+hacking",
+            "reading": "https://scholar.google.com/scholar?q=ethical+hacking"
+        },
+        "information security": {
+            "youtube": "https://www.youtube.com/results?search_query=information+security+tutorial",
+            "course": "https://www.classcentral.com/search?q=information+security",
+            "reading": "https://scholar.google.com/scholar?q=information+security"
+        },
+        "blockchain": {
+            "youtube": "https://www.youtube.com/results?search_query=blockchain+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=blockchain",
+            "reading": "https://scholar.google.com/scholar?q=blockchain"
+        },
+        "internet of things": {
+            "youtube": "https://www.youtube.com/results?search_query=internet+of+things+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=internet+of+things",
+            "reading": "https://scholar.google.com/scholar?q=internet+of+things"
+        },
+        "distributed systems": {
+            "youtube": "https://www.youtube.com/results?search_query=distributed+systems+tutorial",
+            "course": "https://www.coursera.org/search?query=distributed+systems",
+            "reading": "https://scholar.google.com/scholar?q=distributed+systems"
+        },
+        "big data": {
+            "youtube": "https://www.youtube.com/results?search_query=big+data+tutorial",
+            "course": "https://www.classcentral.com/search?q=big+data",
+            "reading": "https://scholar.google.com/scholar?q=big+data"
+        },
+        "apache hadoop": {
+            "youtube": "https://www.youtube.com/results?search_query=apache+hadoop+tutorial",
+            "course": "https://www.edx.org/search?q=apache+hadoop",
+            "reading": "https://scholar.google.com/scholar?q=apache+hadoop"
+        },
+        "apache spark": {
+            "youtube": "https://www.youtube.com/results?search_query=apache+spark+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=apache+spark",
+            "reading": "https://scholar.google.com/scholar?q=apache+spark"
+        },
+        "data warehousing": {
+            "youtube": "https://www.youtube.com/results?search_query=data+warehousing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=data+warehousing",
+            "reading": "https://scholar.google.com/scholar?q=data+warehousing"
+        },
+        "data mining": {
+            "youtube": "https://www.youtube.com/results?search_query=data+mining+tutorial",
+            "course": "https://www.coursera.org/search?query=data+mining",
+            "reading": "https://scholar.google.com/scholar?q=data+mining"
+        },
+        "design patterns": {
+            "youtube": "https://www.youtube.com/results?search_query=design+patterns+tutorial",
+            "course": "https://www.classcentral.com/search?q=design+patterns",
+            "reading": "https://scholar.google.com/scholar?q=design+patterns"
+        },
+        "system design": {
+            "youtube": "https://www.youtube.com/results?search_query=system+design+tutorial",
+            "course": "https://www.edx.org/search?q=system+design",
+            "reading": "https://scholar.google.com/scholar?q=system+design"
+        },
+        "data engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=data+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=data+engineering",
+            "reading": "https://scholar.google.com/scholar?q=data+engineering"
+        },
+        "etl pipelines": {
+            "youtube": "https://www.youtube.com/results?search_query=etl+pipelines+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=etl+pipelines",
+            "reading": "https://scholar.google.com/scholar?q=etl+pipelines"
+        },
+        "data lake architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=data+lake+architecture+tutorial",
+            "course": "https://www.coursera.org/search?query=data+lake+architecture",
+            "reading": "https://scholar.google.com/scholar?q=data+lake+architecture"
+        },
+        "data governance": {
+            "youtube": "https://www.youtube.com/results?search_query=data+governance+tutorial",
+            "course": "https://www.classcentral.com/search?q=data+governance",
+            "reading": "https://scholar.google.com/scholar?q=data+governance"
+        },
+        "data quality management": {
+            "youtube": "https://www.youtube.com/results?search_query=data+quality+management+tutorial",
+            "course": "https://www.edx.org/search?q=data+quality+management",
+            "reading": "https://scholar.google.com/scholar?q=data+quality+management"
+        },
+        "business intelligence": {
+            "youtube": "https://www.youtube.com/results?search_query=business+intelligence+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=business+intelligence",
+            "reading": "https://scholar.google.com/scholar?q=business+intelligence"
+        },
+        "power bi": {
+            "youtube": "https://www.youtube.com/results?search_query=power+bi+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=power+bi",
+            "reading": "https://scholar.google.com/scholar?q=power+bi"
+        },
+        "tableau": {
+            "youtube": "https://www.youtube.com/results?search_query=tableau+tutorial",
+            "course": "https://www.classcentral.com/search?q=tableau",
+            "reading": "https://scholar.google.com/scholar?q=tableau"
+        },
+        "nosql databases": {
+            "youtube": "https://www.youtube.com/results?search_query=nosql+databases+tutorial",
+            "course": "https://www.edx.org/search?q=nosql+databases",
+            "reading": "https://scholar.google.com/scholar?q=nosql+databases"
+        },
+        "mongodb": {
+            "youtube": "https://www.youtube.com/results?search_query=mongodb+tutorial",
+            "course": "https://www.coursera.org/search?query=mongodb",
+            "reading": "https://scholar.google.com/scholar?q=mongodb"
+        },
+        "postgresql": {
+            "youtube": "https://www.youtube.com/results?search_query=postgresql+tutorial",
+            "course": "https://www.classcentral.com/search?q=postgresql",
+            "reading": "https://scholar.google.com/scholar?q=postgresql"
+        },
+        "mysql administration": {
+            "youtube": "https://www.youtube.com/results?search_query=mysql+administration+tutorial",
+            "course": "https://www.edx.org/search?q=mysql+administration",
+            "reading": "https://scholar.google.com/scholar?q=mysql+administration"
+        },
+        "database optimization": {
+            "youtube": "https://www.youtube.com/results?search_query=database+optimization+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=database+optimization",
+            "reading": "https://scholar.google.com/scholar?q=database+optimization"
+        },
+        "query optimization": {
+            "youtube": "https://www.youtube.com/results?search_query=query+optimization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=query+optimization",
+            "reading": "https://scholar.google.com/scholar?q=query+optimization"
+        },
+        "computer architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=computer+architecture+tutorial",
+            "course": "https://www.coursera.org/search?query=computer+architecture",
+            "reading": "https://scholar.google.com/scholar?q=computer+architecture"
+        },
+        "compiler design": {
+            "youtube": "https://www.youtube.com/results?search_query=compiler+design+tutorial",
+            "course": "https://www.classcentral.com/search?q=compiler+design",
+            "reading": "https://scholar.google.com/scholar?q=compiler+design"
+        },
+        "theory of computation": {
+            "youtube": "https://www.youtube.com/results?search_query=theory+of+computation+tutorial",
+            "course": "https://www.edx.org/search?q=theory+of+computation",
+            "reading": "https://scholar.google.com/scholar?q=theory+of+computation"
+        },
+        "discrete mathematics": {
+            "youtube": "https://www.youtube.com/results?search_query=discrete+mathematics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=discrete+mathematics",
+            "reading": "https://scholar.google.com/scholar?q=discrete+mathematics"
+        },
+        "graph theory": {
+            "youtube": "https://www.youtube.com/results?search_query=graph+theory+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=graph+theory",
+            "reading": "https://scholar.google.com/scholar?q=graph+theory"
+        },
+        "competitive programming": {
+            "youtube": "https://www.youtube.com/results?search_query=competitive+programming+tutorial",
+            "course": "https://www.coursera.org/search?query=competitive+programming",
+            "reading": "https://scholar.google.com/scholar?q=competitive+programming"
+        },
+        "dynamic programming": {
+            "youtube": "https://www.youtube.com/results?search_query=dynamic+programming+tutorial",
+            "course": "https://www.classcentral.com/search?q=dynamic+programming",
+            "reading": "https://scholar.google.com/scholar?q=dynamic+programming"
+        },
+        "greedy algorithms": {
+            "youtube": "https://www.youtube.com/results?search_query=greedy+algorithms+tutorial",
+            "course": "https://www.edx.org/search?q=greedy+algorithms",
+            "reading": "https://scholar.google.com/scholar?q=greedy+algorithms"
+        },
+        "backtracking algorithms": {
+            "youtube": "https://www.youtube.com/results?search_query=backtracking+algorithms+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=backtracking+algorithms",
+            "reading": "https://scholar.google.com/scholar?q=backtracking+algorithms"
+        },
+        "graph algorithms": {
+            "youtube": "https://www.youtube.com/results?search_query=graph+algorithms+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=graph+algorithms",
+            "reading": "https://scholar.google.com/scholar?q=graph+algorithms"
+        },
+        "parallel computing": {
+            "youtube": "https://www.youtube.com/results?search_query=parallel+computing+tutorial",
+            "course": "https://www.coursera.org/search?query=parallel+computing",
+            "reading": "https://scholar.google.com/scholar?q=parallel+computing"
+        },
+        "multithreading": {
+            "youtube": "https://www.youtube.com/results?search_query=multithreading+tutorial",
+            "course": "https://www.edx.org/search?q=multithreading",
+            "reading": "https://scholar.google.com/scholar?q=multithreading"
+        },
+        "concurrent programming": {
+            "youtube": "https://www.youtube.com/results?search_query=concurrent+programming+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=concurrent+programming",
+            "reading": "https://scholar.google.com/scholar?q=concurrent+programming"
+        },
+        "microservices architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=microservices+architecture+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=microservices+architecture",
+            "reading": "https://scholar.google.com/scholar?q=microservices+architecture"
+        },
+        "spring boot": {
+            "youtube": "https://www.youtube.com/results?search_query=spring+boot+tutorial",
+            "course": "https://www.coursera.org/search?query=spring+boot",
+            "reading": "https://scholar.google.com/scholar?q=spring+boot"
+        },
+        "django": {
+            "youtube": "https://www.youtube.com/results?search_query=django+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=django",
+            "reading": "https://scholar.google.com/scholar?q=django"
+        },
+        "flask": {
+            "youtube": "https://www.youtube.com/results?search_query=flask+tutorial",
+            "course": "https://www.coursera.org/search?query=flask",
+            "reading": "https://scholar.google.com/scholar?q=flask"
+        },
+        "graphql": {
+            "youtube": "https://www.youtube.com/results?search_query=graphql+tutorial",
+            "course": "https://www.classcentral.com/search?q=graphql",
+            "reading": "https://scholar.google.com/scholar?q=graphql"
+        },
+        "web security": {
+            "youtube": "https://www.youtube.com/results?search_query=web+security+tutorial",
+            "course": "https://www.edx.org/search?q=web+security",
+            "reading": "https://scholar.google.com/scholar?q=web+security"
+        },
+        "network security": {
+            "youtube": "https://www.youtube.com/results?search_query=network+security+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=network+security",
+            "reading": "https://scholar.google.com/scholar?q=network+security"
+        },
+        "cryptography": {
+            "youtube": "https://www.youtube.com/results?search_query=cryptography+tutorial",
+            "course": "https://www.coursera.org/search?query=cryptography",
+            "reading": "https://scholar.google.com/scholar?q=cryptography"
+        },
+        "digital forensics": {
+            "youtube": "https://www.youtube.com/results?search_query=digital+forensics+tutorial",
+            "course": "https://www.classcentral.com/search?q=digital+forensics",
+            "reading": "https://scholar.google.com/scholar?q=digital+forensics"
+        },
+        "penetration testing": {
+            "youtube": "https://www.youtube.com/results?search_query=penetration+testing+tutorial",
+            "course": "https://www.edx.org/search?q=penetration+testing",
+            "reading": "https://scholar.google.com/scholar?q=penetration+testing"
+        },
+        "mobile application development": {
+            "youtube": "https://www.youtube.com/results?search_query=mobile+application+development+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=mobile+application+development",
+            "reading": "https://scholar.google.com/scholar?q=mobile+application+development"
+        },
+        "android development": {
+            "youtube": "https://www.youtube.com/results?search_query=android+development+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=android+development",
+            "reading": "https://scholar.google.com/scholar?q=android+development"
+        },
+        "flutter": {
+            "youtube": "https://www.youtube.com/results?search_query=flutter+tutorial",
+            "course": "https://www.classcentral.com/search?q=flutter",
+            "reading": "https://scholar.google.com/scholar?q=flutter"
+        },
+        "software testing": {
+            "youtube": "https://www.youtube.com/results?search_query=software+testing+tutorial",
+            "course": "https://www.edx.org/search?q=software+testing",
+            "reading": "https://scholar.google.com/scholar?q=software+testing"
+        },
+        "automation testing": {
+            "youtube": "https://www.youtube.com/results?search_query=automation+testing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=automation+testing",
+            "reading": "https://scholar.google.com/scholar?q=automation+testing"
+        },
+        "devops": {
+            "youtube": "https://www.youtube.com/results?search_query=devops+tutorial",
+            "course": "https://www.coursera.org/search?query=devops",
+            "reading": "https://scholar.google.com/scholar?q=devops"
+        },
+        "continuous integration": {
+            "youtube": "https://www.youtube.com/results?search_query=continuous+integration+tutorial",
+            "course": "https://www.classcentral.com/search?q=continuous+integration",
+            "reading": "https://scholar.google.com/scholar?q=continuous+integration"
+        },
+        "continuous deployment": {
+            "youtube": "https://www.youtube.com/results?search_query=continuous+deployment+tutorial",
+            "course": "https://www.edx.org/search?q=continuous+deployment",
+            "reading": "https://scholar.google.com/scholar?q=continuous+deployment"
+        },
+        "jenkins": {
+            "youtube": "https://www.youtube.com/results?search_query=jenkins+tutorial",
+            "course": "https://www.coursera.org/search?query=jenkins",
+            "reading": "https://scholar.google.com/scholar?q=jenkins"
+        },
+        "terraform": {
+            "youtube": "https://www.youtube.com/results?search_query=terraform+tutorial",
+            "course": "https://www.classcentral.com/search?q=terraform",
+            "reading": "https://scholar.google.com/scholar?q=terraform"
+        },
+        "computer graphics": {
+            "youtube": "https://www.youtube.com/results?search_query=computer+graphics+tutorial",
+            "course": "https://www.edx.org/search?q=computer+graphics",
+            "reading": "https://scholar.google.com/scholar?q=computer+graphics"
+        },
+        "augmented reality": {
+            "youtube": "https://www.youtube.com/results?search_query=augmented+reality+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=augmented+reality",
+            "reading": "https://scholar.google.com/scholar?q=augmented+reality"
+        },
+        "virtual reality": {
+            "youtube": "https://www.youtube.com/results?search_query=virtual+reality+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=virtual+reality",
+            "reading": "https://scholar.google.com/scholar?q=virtual+reality"
+        },
+        "edge computing": {
+            "youtube": "https://www.youtube.com/results?search_query=edge+computing+tutorial",
+            "course": "https://www.coursera.org/search?query=edge+computing",
+            "reading": "https://scholar.google.com/scholar?q=edge+computing"
+        },
+        "reinforcement learning": {
+            "youtube": "https://www.youtube.com/results?search_query=reinforcement+learning+tutorial",
+            "course": "https://www.classcentral.com/search?q=reinforcement+learning",
+            "reading": "https://scholar.google.com/scholar?q=reinforcement+learning"
+        },
+        "federated learning": {
+            "youtube": "https://www.youtube.com/results?search_query=federated+learning+tutorial",
+            "course": "https://www.edx.org/search?q=federated+learning",
+            "reading": "https://scholar.google.com/scholar?q=federated+learning"
+        },
+        "transfer learning": {
+            "youtube": "https://www.youtube.com/results?search_query=transfer+learning+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=transfer+learning",
+            "reading": "https://scholar.google.com/scholar?q=transfer+learning"
+        },
+        "explainable ai": {
+            "youtube": "https://www.youtube.com/results?search_query=explainable+ai+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=explainable+ai",
+            "reading": "https://scholar.google.com/scholar?q=explainable+ai"
+        },
+        "mlops": {
+            "youtube": "https://www.youtube.com/results?search_query=mlops+tutorial",
+            "course": "https://www.classcentral.com/search?q=mlops",
+            "reading": "https://scholar.google.com/scholar?q=mlops"
+        },
+        "feature engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=feature+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=feature+engineering",
+            "reading": "https://scholar.google.com/scholar?q=feature+engineering"
+        },
+        "time series analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=time+series+analysis+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=time+series+analysis",
+            "reading": "https://scholar.google.com/scholar?q=time+series+analysis"
+        },
+        "recommendation systems": {
+            "youtube": "https://www.youtube.com/results?search_query=recommendation+systems+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=recommendation+systems",
+            "reading": "https://scholar.google.com/scholar?q=recommendation+systems"
+        },
+        "anomaly detection": {
+            "youtube": "https://www.youtube.com/results?search_query=anomaly+detection+tutorial",
+            "course": "https://www.coursera.org/search?query=anomaly+detection",
+            "reading": "https://scholar.google.com/scholar?q=anomaly+detection"
+        },
+        "knowledge graphs": {
+            "youtube": "https://www.youtube.com/results?search_query=knowledge+graphs+tutorial",
+            "course": "https://www.classcentral.com/search?q=knowledge+graphs",
+            "reading": "https://scholar.google.com/scholar?q=knowledge+graphs"
+        },
+        "semantic web": {
+            "youtube": "https://www.youtube.com/results?search_query=semantic+web+tutorial",
+            "course": "https://www.edx.org/search?q=semantic+web",
+            "reading": "https://scholar.google.com/scholar?q=semantic+web"
+        },
+        "information retrieval": {
+            "youtube": "https://www.youtube.com/results?search_query=information+retrieval+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=information+retrieval",
+            "reading": "https://scholar.google.com/scholar?q=information+retrieval"
+        },
+        "search engine architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=search+engine+architecture+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=search+engine+architecture",
+            "reading": "https://scholar.google.com/scholar?q=search+engine+architecture"
+        },
+        "apache kafka": {
+            "youtube": "https://www.youtube.com/results?search_query=apache+kafka+tutorial",
+            "course": "https://www.coursera.org/search?query=apache+kafka",
+            "reading": "https://scholar.google.com/scholar?q=apache+kafka"
+        },
+        "stream processing": {
+            "youtube": "https://www.youtube.com/results?search_query=stream+processing+tutorial",
+            "course": "https://www.classcentral.com/search?q=stream+processing",
+            "reading": "https://scholar.google.com/scholar?q=stream+processing"
+        },
+        "real time analytics": {
+            "youtube": "https://www.youtube.com/results?search_query=real+time+analytics+tutorial",
+            "course": "https://www.edx.org/search?q=real+time+analytics",
+            "reading": "https://scholar.google.com/scholar?q=real+time+analytics"
+        },
+        "apache airflow": {
+            "youtube": "https://www.youtube.com/results?search_query=apache+airflow+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=apache+airflow",
+            "reading": "https://scholar.google.com/scholar?q=apache+airflow"
+        },
+        "data orchestration": {
+            "youtube": "https://www.youtube.com/results?search_query=data+orchestration+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=data+orchestration",
+            "reading": "https://scholar.google.com/scholar?q=data+orchestration"
+        },
+        "snowflake": {
+            "youtube": "https://www.youtube.com/results?search_query=snowflake+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=snowflake",
+            "reading": "https://scholar.google.com/scholar?q=snowflake"
+        },
+        "databricks": {
+            "youtube": "https://www.youtube.com/results?search_query=databricks+tutorial",
+            "course": "https://www.coursera.org/search?query=databricks",
+            "reading": "https://scholar.google.com/scholar?q=databricks"
+        },
+        "redis": {
+            "youtube": "https://www.youtube.com/results?search_query=redis+tutorial",
+            "course": "https://www.classcentral.com/search?q=redis",
+            "reading": "https://scholar.google.com/scholar?q=redis"
+        },
+        "elasticsearch": {
+            "youtube": "https://www.youtube.com/results?search_query=elasticsearch+tutorial",
+            "course": "https://www.edx.org/search?q=elasticsearch",
+            "reading": "https://scholar.google.com/scholar?q=elasticsearch"
+        },
+        "message queues": {
+            "youtube": "https://www.youtube.com/results?search_query=message+queues+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=message+queues",
+            "reading": "https://scholar.google.com/scholar?q=message+queues"
+        },
+        "rabbitmq": {
+            "youtube": "https://www.youtube.com/results?search_query=rabbitmq+tutorial",
+            "course": "https://www.coursera.org/search?query=rabbitmq",
+            "reading": "https://scholar.google.com/scholar?q=rabbitmq"
+        },
+        "event driven architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=event+driven+architecture+tutorial",
+            "course": "https://www.classcentral.com/search?q=event+driven+architecture",
+            "reading": "https://scholar.google.com/scholar?q=event+driven+architecture"
+        },
+        "service mesh": {
+            "youtube": "https://www.youtube.com/results?search_query=service+mesh+tutorial",
+            "course": "https://www.edx.org/search?q=service+mesh",
+            "reading": "https://scholar.google.com/scholar?q=service+mesh"
+        },
+        "observability": {
+            "youtube": "https://www.youtube.com/results?search_query=observability+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=observability",
+            "reading": "https://scholar.google.com/scholar?q=observability"
+        },
+        "application monitoring": {
+            "youtube": "https://www.youtube.com/results?search_query=application+monitoring+tutorial",
+            "course": "https://www.coursera.org/search?query=application+monitoring",
+            "reading": "https://scholar.google.com/scholar?q=application+monitoring"
+        },
+        "site reliability engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=site+reliability+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=site+reliability+engineering",
+            "reading": "https://scholar.google.com/scholar?q=site+reliability+engineering"
+        },
+        "identity and access management": {
+            "youtube": "https://www.youtube.com/results?search_query=identity+and+access+management+tutorial",
+            "course": "https://www.edx.org/search?q=identity+and+access+management",
+            "reading": "https://scholar.google.com/scholar?q=identity+and+access+management"
+        },
+        "oauth 2.0": {
+            "youtube": "https://www.youtube.com/results?search_query=oauth+2.0+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=oauth+2.0",
+            "reading": "https://scholar.google.com/scholar?q=oauth+2.0"
+        },
+        "openid connect": {
+            "youtube": "https://www.youtube.com/results?search_query=openid+connect+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=openid+connect",
+            "reading": "https://scholar.google.com/scholar?q=openid+connect"
+        },
+        "secure software development": {
+            "youtube": "https://www.youtube.com/results?search_query=secure+software+development+tutorial",
+            "course": "https://www.coursera.org/search?query=secure+software+development",
+            "reading": "https://scholar.google.com/scholar?q=secure+software+development"
+        },
+        "cloud security": {
+            "youtube": "https://www.youtube.com/results?search_query=cloud+security+tutorial",
+            "course": "https://www.classcentral.com/search?q=cloud+security",
+            "reading": "https://scholar.google.com/scholar?q=cloud+security"
+        },
+        "container security": {
+            "youtube": "https://www.youtube.com/results?search_query=container+security+tutorial",
+            "course": "https://www.edx.org/search?q=container+security",
+            "reading": "https://scholar.google.com/scholar?q=container+security"
+        },
+        "serverless computing": {
+            "youtube": "https://www.youtube.com/results?search_query=serverless+computing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=serverless+computing",
+            "reading": "https://scholar.google.com/scholar?q=serverless+computing"
+        },
+        "aws lambda": {
+            "youtube": "https://www.youtube.com/results?search_query=aws+lambda+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=aws+lambda",
+            "reading": "https://scholar.google.com/scholar?q=aws+lambda"
+        },
+        "infrastructure as code": {
+            "youtube": "https://www.youtube.com/results?search_query=infrastructure+as+code+tutorial",
+            "course": "https://www.coursera.org/search?query=infrastructure+as+code",
+            "reading": "https://scholar.google.com/scholar?q=infrastructure+as+code"
+        },
+        "software architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=software+architecture+tutorial",
+            "course": "https://www.classcentral.com/search?q=software+architecture",
+            "reading": "https://scholar.google.com/scholar?q=software+architecture"
+        },
+        "enterprise application integration": {
+            "youtube": "https://www.youtube.com/results?search_query=enterprise+application+integration+tutorial",
+            "course": "https://www.edx.org/search?q=enterprise+application+integration",
+            "reading": "https://scholar.google.com/scholar?q=enterprise+application+integration"
+        },
+        "digital signal processing": {
+            "youtube": "https://www.youtube.com/results?search_query=digital+signal+processing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=digital+signal+processing",
+            "reading": "https://scholar.google.com/scholar?q=digital+signal+processing"
+        },
+        "speech processing": {
+            "youtube": "https://www.youtube.com/results?search_query=speech+processing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=speech+processing",
+            "reading": "https://scholar.google.com/scholar?q=speech+processing"
+        },
+        "robotics software systems": {
+            "youtube": "https://www.youtube.com/results?search_query=robotics+software+systems+tutorial",
+            "course": "https://www.coursera.org/search?query=robotics+software+systems",
+            "reading": "https://scholar.google.com/scholar?q=robotics+software+systems"
+        },
+        "human computer interaction": {
+            "youtube": "https://www.youtube.com/results?search_query=human+computer+interaction+tutorial",
+            "course": "https://www.classcentral.com/search?q=human+computer+interaction",
+            "reading": "https://scholar.google.com/scholar?q=human+computer+interaction"
+        },
+        "user experience design": {
+            "youtube": "https://www.youtube.com/results?search_query=user+experience+design+tutorial",
+            "course": "https://www.edx.org/search?q=user+experience+design",
+            "reading": "https://scholar.google.com/scholar?q=user+experience+design"
+        },
+        "user interface design": {
+            "youtube": "https://www.youtube.com/results?search_query=user+interface+design+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=user+interface+design",
+            "reading": "https://scholar.google.com/scholar?q=user+interface+design"
+        },
+        "game development": {
+            "youtube": "https://www.youtube.com/results?search_query=game+development+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=game+development",
+            "reading": "https://scholar.google.com/scholar?q=game+development"
+        },
+        "unity development": {
+            "youtube": "https://www.youtube.com/results?search_query=unity+development+tutorial",
+            "course": "https://www.coursera.org/search?query=unity+development",
+            "reading": "https://scholar.google.com/scholar?q=unity+development"
+        },
+        "quantum computing": {
+            "youtube": "https://www.youtube.com/results?search_query=quantum+computing+tutorial",
+            "course": "https://www.classcentral.com/search?q=quantum+computing",
+            "reading": "https://scholar.google.com/scholar?q=quantum+computing"
+        },
+        "bioinformatics": {
+            "youtube": "https://www.youtube.com/results?search_query=bioinformatics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=bioinformatics",
+            "reading": "https://scholar.google.com/scholar?q=bioinformatics"
+        },
+        "rag systems": {
+            "youtube": "https://www.youtube.com/results?search_query=rag+systems+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=rag+systems",
+            "reading": "https://scholar.google.com/scholar?q=rag+systems"
+        },
+        "vector databases": {
+            "youtube": "https://www.youtube.com/results?search_query=vector+databases+tutorial",
+            "course": "https://www.coursera.org/search?query=vector+databases",
+            "reading": "https://scholar.google.com/scholar?q=vector+databases"
+        },
+        "llm application development": {
+            "youtube": "https://www.youtube.com/results?search_query=llm+application+development+tutorial",
+            "course": "https://www.classcentral.com/search?q=llm+application+development",
+            "reading": "https://scholar.google.com/scholar?q=llm+application+development"
+        },
+        "agentic ai": {
+            "youtube": "https://www.youtube.com/results?search_query=agentic+ai+tutorial",
+            "course": "https://www.edx.org/search?q=agentic+ai",
+            "reading": "https://scholar.google.com/scholar?q=agentic+ai"
+        },
+        "langchain": {
+            "youtube": "https://www.youtube.com/results?search_query=langchain+tutorial",
+            "course": "https://www.coursera.org/search?query=langchain",
+            "reading": "https://scholar.google.com/scholar?q=langchain"
+        },
+        "llamaindex": {
+            "youtube": "https://www.youtube.com/results?search_query=llamaindex+tutorial",
+            "course": "https://www.classcentral.com/search?q=llamaindex",
+            "reading": "https://scholar.google.com/scholar?q=llamaindex"
+        },
+        "embedding models": {
+            "youtube": "https://www.youtube.com/results?search_query=embedding+models+tutorial",
+            "course": "https://www.edx.org/search?q=embedding+models",
+            "reading": "https://scholar.google.com/scholar?q=embedding+models"
+        },
+        "model fine tuning": {
+            "youtube": "https://www.youtube.com/results?search_query=model+fine+tuning+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=model+fine+tuning",
+            "reading": "https://scholar.google.com/scholar?q=model+fine+tuning"
+        },
+        "ai model deployment": {
+            "youtube": "https://www.youtube.com/results?search_query=ai+model+deployment+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=ai+model+deployment",
+            "reading": "https://scholar.google.com/scholar?q=ai+model+deployment"
+        },
+        "onnx": {
+            "youtube": "https://www.youtube.com/results?search_query=onnx+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=onnx",
+            "reading": "https://scholar.google.com/scholar?q=onnx"
+        },
+        "pytorch": {
+            "youtube": "https://www.youtube.com/results?search_query=pytorch+tutorial",
+            "course": "https://www.coursera.org/search?query=pytorch",
+            "reading": "https://scholar.google.com/scholar?q=pytorch"
+        },
+        "tensorflow": {
+            "youtube": "https://www.youtube.com/results?search_query=tensorflow+tutorial",
+            "course": "https://www.classcentral.com/search?q=tensorflow",
+            "reading": "https://scholar.google.com/scholar?q=tensorflow"
+        },
+        "keras": {
+            "youtube": "https://www.youtube.com/results?search_query=keras+tutorial",
+            "course": "https://www.edx.org/search?q=keras",
+            "reading": "https://scholar.google.com/scholar?q=keras"
+        },
+        "hugging face transformers": {
+            "youtube": "https://www.youtube.com/results?search_query=hugging+face+transformers+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=hugging+face+transformers",
+            "reading": "https://scholar.google.com/scholar?q=hugging+face+transformers"
+        },
+        "model quantization": {
+            "youtube": "https://www.youtube.com/results?search_query=model+quantization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=model+quantization",
+            "reading": "https://scholar.google.com/scholar?q=model+quantization"
+        },
+        "gpu programming": {
+            "youtube": "https://www.youtube.com/results?search_query=gpu+programming+tutorial",
+            "course": "https://www.coursera.org/search?query=gpu+programming",
+            "reading": "https://scholar.google.com/scholar?q=gpu+programming"
+        },
+        "cuda": {
+            "youtube": "https://www.youtube.com/results?search_query=cuda+tutorial",
+            "course": "https://www.edx.org/search?q=cuda",
+            "reading": "https://scholar.google.com/scholar?q=cuda"
+        },
+        "high performance computing": {
+            "youtube": "https://www.youtube.com/results?search_query=high+performance+computing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=high+performance+computing",
+            "reading": "https://scholar.google.com/scholar?q=high+performance+computing"
+        },
+        "bayesian machine learning": {
+            "youtube": "https://www.youtube.com/results?search_query=bayesian+machine+learning+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=bayesian+machine+learning",
+            "reading": "https://scholar.google.com/scholar?q=bayesian+machine+learning"
+        },
+        "probabilistic graphical models": {
+            "youtube": "https://www.youtube.com/results?search_query=probabilistic+graphical+models+tutorial",
+            "course": "https://www.coursera.org/search?query=probabilistic+graphical+models",
+            "reading": "https://scholar.google.com/scholar?q=probabilistic+graphical+models"
+        },
+        "causal inference": {
+            "youtube": "https://www.youtube.com/results?search_query=causal+inference+tutorial",
+            "course": "https://www.classcentral.com/search?q=causal+inference",
+            "reading": "https://scholar.google.com/scholar?q=causal+inference"
+        },
+        "graph neural networks": {
+            "youtube": "https://www.youtube.com/results?search_query=graph+neural+networks+tutorial",
+            "course": "https://www.edx.org/search?q=graph+neural+networks",
+            "reading": "https://scholar.google.com/scholar?q=graph+neural+networks"
+        },
+        "transformer architectures": {
+            "youtube": "https://www.youtube.com/results?search_query=transformer+architectures+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=transformer+architectures",
+            "reading": "https://scholar.google.com/scholar?q=transformer+architectures"
+        },
+        "multimodal ai": {
+            "youtube": "https://www.youtube.com/results?search_query=multimodal+ai+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=multimodal+ai",
+            "reading": "https://scholar.google.com/scholar?q=multimodal+ai"
+        },
+        "computer vision transformers": {
+            "youtube": "https://www.youtube.com/results?search_query=computer+vision+transformers+tutorial",
+            "course": "https://www.coursera.org/search?query=computer+vision+transformers",
+            "reading": "https://scholar.google.com/scholar?q=computer+vision+transformers"
+        },
+        "opencv": {
+            "youtube": "https://www.youtube.com/results?search_query=opencv+tutorial",
+            "course": "https://www.edx.org/search?q=opencv",
+            "reading": "https://scholar.google.com/scholar?q=opencv"
+        },
+        "3d computer vision": {
+            "youtube": "https://www.youtube.com/results?search_query=3d+computer+vision+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=3d+computer+vision",
+            "reading": "https://scholar.google.com/scholar?q=3d+computer+vision"
+        },
+        "autonomous systems": {
+            "youtube": "https://www.youtube.com/results?search_query=autonomous+systems+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=autonomous+systems",
+            "reading": "https://scholar.google.com/scholar?q=autonomous+systems"
+        },
+        "digital twins": {
+            "youtube": "https://www.youtube.com/results?search_query=digital+twins+tutorial",
+            "course": "https://www.coursera.org/search?query=digital+twins",
+            "reading": "https://scholar.google.com/scholar?q=digital+twins"
+        },
+        "smart cities technology": {
+            "youtube": "https://www.youtube.com/results?search_query=smart+cities+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=smart+cities+technology",
+            "reading": "https://scholar.google.com/scholar?q=smart+cities+technology"
+        },
+        "wireless sensor networks": {
+            "youtube": "https://www.youtube.com/results?search_query=wireless+sensor+networks+tutorial",
+            "course": "https://www.edx.org/search?q=wireless+sensor+networks",
+            "reading": "https://scholar.google.com/scholar?q=wireless+sensor+networks"
+        },
+        "5g networks": {
+            "youtube": "https://www.youtube.com/results?search_query=5g+networks+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=5g+networks",
+            "reading": "https://scholar.google.com/scholar?q=5g+networks"
+        },
+        "network virtualization": {
+            "youtube": "https://www.youtube.com/results?search_query=network+virtualization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=network+virtualization",
+            "reading": "https://scholar.google.com/scholar?q=network+virtualization"
+        },
+        "software defined networking": {
+            "youtube": "https://www.youtube.com/results?search_query=software+defined+networking+tutorial",
+            "course": "https://www.coursera.org/search?query=software+defined+networking",
+            "reading": "https://scholar.google.com/scholar?q=software+defined+networking"
+        },
+        "network automation": {
+            "youtube": "https://www.youtube.com/results?search_query=network+automation+tutorial",
+            "course": "https://www.classcentral.com/search?q=network+automation",
+            "reading": "https://scholar.google.com/scholar?q=network+automation"
+        },
+        "reverse engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=reverse+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=reverse+engineering",
+            "reading": "https://scholar.google.com/scholar?q=reverse+engineering"
+        },
+        "malware analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=malware+analysis+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=malware+analysis",
+            "reading": "https://scholar.google.com/scholar?q=malware+analysis"
+        },
+        "threat intelligence": {
+            "youtube": "https://www.youtube.com/results?search_query=threat+intelligence+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=threat+intelligence",
+            "reading": "https://scholar.google.com/scholar?q=threat+intelligence"
+        },
+        "security operations center": {
+            "youtube": "https://www.youtube.com/results?search_query=security+operations+center+tutorial",
+            "course": "https://www.coursera.org/search?query=security+operations+center",
+            "reading": "https://scholar.google.com/scholar?q=security+operations+center"
+        },
+        "digital ethics": {
+            "youtube": "https://www.youtube.com/results?search_query=digital+ethics+tutorial",
+            "course": "https://www.classcentral.com/search?q=digital+ethics",
+            "reading": "https://scholar.google.com/scholar?q=digital+ethics"
+        },
+        "privacy engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=privacy+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=privacy+engineering",
+            "reading": "https://scholar.google.com/scholar?q=privacy+engineering"
+        },
+        "data privacy regulations": {
+            "youtube": "https://www.youtube.com/results?search_query=data+privacy+regulations+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=data+privacy+regulations",
+            "reading": "https://scholar.google.com/scholar?q=data+privacy+regulations"
+        },
+        "enterprise data management": {
+            "youtube": "https://www.youtube.com/results?search_query=enterprise+data+management+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=enterprise+data+management",
+            "reading": "https://scholar.google.com/scholar?q=enterprise+data+management"
+        },
+        "master data management": {
+            "youtube": "https://www.youtube.com/results?search_query=master+data+management+tutorial",
+            "course": "https://www.coursera.org/search?query=master+data+management",
+            "reading": "https://scholar.google.com/scholar?q=master+data+management"
+        },
+        "data lineage": {
+            "youtube": "https://www.youtube.com/results?search_query=data+lineage+tutorial",
+            "course": "https://www.classcentral.com/search?q=data+lineage",
+            "reading": "https://scholar.google.com/scholar?q=data+lineage"
+        },
+        "metadata management": {
+            "youtube": "https://www.youtube.com/results?search_query=metadata+management+tutorial",
+            "course": "https://www.edx.org/search?q=metadata+management",
+            "reading": "https://scholar.google.com/scholar?q=metadata+management"
+        },
+        "enterprise architecture": {
+            "youtube": "https://www.youtube.com/results?search_query=enterprise+architecture+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=enterprise+architecture",
+            "reading": "https://scholar.google.com/scholar?q=enterprise+architecture"
+        },
+        "business process automation": {
+            "youtube": "https://www.youtube.com/results?search_query=business+process+automation+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=business+process+automation",
+            "reading": "https://scholar.google.com/scholar?q=business+process+automation"
+        },
+        "robotic process automation": {
+            "youtube": "https://www.youtube.com/results?search_query=robotic+process+automation+tutorial",
+            "course": "https://www.coursera.org/search?query=robotic+process+automation",
+            "reading": "https://scholar.google.com/scholar?q=robotic+process+automation"
+        },
+        "low code development": {
+            "youtube": "https://www.youtube.com/results?search_query=low+code+development+tutorial",
+            "course": "https://www.classcentral.com/search?q=low+code+development",
+            "reading": "https://scholar.google.com/scholar?q=low+code+development"
+        }
+    },
+    "biotechnology": {
+        "molecular biology": {
+            "youtube": "https://www.youtube.com/results?search_query=molecular+biology+tutorial",
+            "course": "https://www.edx.org/search?q=molecular+biology",
+            "reading": "https://scholar.google.com/scholar?q=molecular+biology"
+        },
+        "cell biology": {
+            "youtube": "https://www.youtube.com/results?search_query=cell+biology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=cell+biology",
+            "reading": "https://scholar.google.com/scholar?q=cell+biology"
+        },
+        "genetics": {
+            "youtube": "https://www.youtube.com/results?search_query=genetics+tutorial",
+            "course": "https://www.edx.org/search?q=genetics",
+            "reading": "https://scholar.google.com/scholar?q=genetics"
+        },
+        "microbiology": {
+            "youtube": "https://www.youtube.com/results?search_query=microbiology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=microbiology",
+            "reading": "https://scholar.google.com/scholar?q=microbiology"
+        },
+        "biochemistry": {
+            "youtube": "https://www.youtube.com/results?search_query=biochemistry+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=biochemistry",
+            "reading": "https://scholar.google.com/scholar?q=biochemistry"
+        },
+        "genetic engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=genetic+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=genetic+engineering",
+            "reading": "https://scholar.google.com/scholar?q=genetic+engineering"
+        },
+        "recombinant dna technology": {
+            "youtube": "https://www.youtube.com/results?search_query=recombinant+dna+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=recombinant+dna+technology",
+            "reading": "https://scholar.google.com/scholar?q=recombinant+dna+technology"
+        },
+        "polymerase chain reaction": {
+            "youtube": "https://www.youtube.com/results?search_query=polymerase+chain+reaction+tutorial",
+            "course": "https://www.edx.org/search?q=polymerase+chain+reaction",
+            "reading": "https://scholar.google.com/scholar?q=polymerase+chain+reaction"
+        },
+        "gene cloning": {
+            "youtube": "https://www.youtube.com/results?search_query=gene+cloning+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=gene+cloning",
+            "reading": "https://scholar.google.com/scholar?q=gene+cloning"
+        },
+        "genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=genomics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=genomics",
+            "reading": "https://scholar.google.com/scholar?q=genomics"
+        },
+        "proteomics": {
+            "youtube": "https://www.youtube.com/results?search_query=proteomics+tutorial",
+            "course": "https://www.coursera.org/search?query=proteomics",
+            "reading": "https://scholar.google.com/scholar?q=proteomics"
+        },
+        "transcriptomics": {
+            "youtube": "https://www.youtube.com/results?search_query=transcriptomics+tutorial",
+            "course": "https://www.classcentral.com/search?q=transcriptomics",
+            "reading": "https://scholar.google.com/scholar?q=transcriptomics"
+        },
+        "metabolomics": {
+            "youtube": "https://www.youtube.com/results?search_query=metabolomics+tutorial",
+            "course": "https://www.edx.org/search?q=metabolomics",
+            "reading": "https://scholar.google.com/scholar?q=metabolomics"
+        },
+        "sequence analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=sequence+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=sequence+analysis",
+            "reading": "https://scholar.google.com/scholar?q=sequence+analysis"
+        },
+        "next generation sequencing": {
+            "youtube": "https://www.youtube.com/results?search_query=next+generation+sequencing+tutorial",
+            "course": "https://www.coursera.org/search?query=next+generation+sequencing",
+            "reading": "https://scholar.google.com/scholar?q=next+generation+sequencing"
+        },
+        "structural biology": {
+            "youtube": "https://www.youtube.com/results?search_query=structural+biology+tutorial",
+            "course": "https://www.classcentral.com/search?q=structural+biology",
+            "reading": "https://scholar.google.com/scholar?q=structural+biology"
+        },
+        "protein engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=protein+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=protein+engineering",
+            "reading": "https://scholar.google.com/scholar?q=protein+engineering"
+        },
+        "enzyme engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=enzyme+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=enzyme+engineering",
+            "reading": "https://scholar.google.com/scholar?q=enzyme+engineering"
+        },
+        "metabolic engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=metabolic+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=metabolic+engineering",
+            "reading": "https://scholar.google.com/scholar?q=metabolic+engineering"
+        },
+        "synthetic biology": {
+            "youtube": "https://www.youtube.com/results?search_query=synthetic+biology+tutorial",
+            "course": "https://www.coursera.org/search?query=synthetic+biology",
+            "reading": "https://scholar.google.com/scholar?q=synthetic+biology"
+        },
+        "crispr technology": {
+            "youtube": "https://www.youtube.com/results?search_query=crispr+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=crispr+technology",
+            "reading": "https://scholar.google.com/scholar?q=crispr+technology"
+        },
+        "gene editing": {
+            "youtube": "https://www.youtube.com/results?search_query=gene+editing+tutorial",
+            "course": "https://www.edx.org/search?q=gene+editing",
+            "reading": "https://scholar.google.com/scholar?q=gene+editing"
+        },
+        "stem cell technology": {
+            "youtube": "https://www.youtube.com/results?search_query=stem+cell+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=stem+cell+technology",
+            "reading": "https://scholar.google.com/scholar?q=stem+cell+technology"
+        },
+        "tissue engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=tissue+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=tissue+engineering",
+            "reading": "https://scholar.google.com/scholar?q=tissue+engineering"
+        },
+        "regenerative medicine": {
+            "youtube": "https://www.youtube.com/results?search_query=regenerative+medicine+tutorial",
+            "course": "https://www.coursera.org/search?query=regenerative+medicine",
+            "reading": "https://scholar.google.com/scholar?q=regenerative+medicine"
+        },
+        "bioprocess engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=bioprocess+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=bioprocess+engineering",
+            "reading": "https://scholar.google.com/scholar?q=bioprocess+engineering"
+        },
+        "fermentation technology": {
+            "youtube": "https://www.youtube.com/results?search_query=fermentation+technology+tutorial",
+            "course": "https://www.edx.org/search?q=fermentation+technology",
+            "reading": "https://scholar.google.com/scholar?q=fermentation+technology"
+        },
+        "bioreactor design": {
+            "youtube": "https://www.youtube.com/results?search_query=bioreactor+design+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=bioreactor+design",
+            "reading": "https://scholar.google.com/scholar?q=bioreactor+design"
+        },
+        "downstream processing": {
+            "youtube": "https://www.youtube.com/results?search_query=downstream+processing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=downstream+processing",
+            "reading": "https://scholar.google.com/scholar?q=downstream+processing"
+        },
+        "biopharmaceutical manufacturing": {
+            "youtube": "https://www.youtube.com/results?search_query=biopharmaceutical+manufacturing+tutorial",
+            "course": "https://www.coursera.org/search?query=biopharmaceutical+manufacturing",
+            "reading": "https://scholar.google.com/scholar?q=biopharmaceutical+manufacturing"
+        },
+        "drug discovery": {
+            "youtube": "https://www.youtube.com/results?search_query=drug+discovery+tutorial",
+            "course": "https://www.classcentral.com/search?q=drug+discovery",
+            "reading": "https://scholar.google.com/scholar?q=drug+discovery"
+        },
+        "drug delivery systems": {
+            "youtube": "https://www.youtube.com/results?search_query=drug+delivery+systems+tutorial",
+            "course": "https://www.edx.org/search?q=drug+delivery+systems",
+            "reading": "https://scholar.google.com/scholar?q=drug+delivery+systems"
+        },
+        "pharmacogenomics": {
+            "youtube": "https://www.youtube.com/results?search_query=pharmacogenomics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=pharmacogenomics",
+            "reading": "https://scholar.google.com/scholar?q=pharmacogenomics"
+        },
+        "systems biology": {
+            "youtube": "https://www.youtube.com/results?search_query=systems+biology+tutorial",
+            "course": "https://www.coursera.org/search?query=systems+biology",
+            "reading": "https://scholar.google.com/scholar?q=systems+biology"
+        },
+        "computational biology": {
+            "youtube": "https://www.youtube.com/results?search_query=computational+biology+tutorial",
+            "course": "https://www.classcentral.com/search?q=computational+biology",
+            "reading": "https://scholar.google.com/scholar?q=computational+biology"
+        },
+        "biostatistics": {
+            "youtube": "https://www.youtube.com/results?search_query=biostatistics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=biostatistics",
+            "reading": "https://scholar.google.com/scholar?q=biostatistics"
+        },
+        "biomedical instrumentation": {
+            "youtube": "https://www.youtube.com/results?search_query=biomedical+instrumentation+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=biomedical+instrumentation",
+            "reading": "https://scholar.google.com/scholar?q=biomedical+instrumentation"
+        },
+        "biosensors": {
+            "youtube": "https://www.youtube.com/results?search_query=biosensors+tutorial",
+            "course": "https://www.coursera.org/search?query=biosensors",
+            "reading": "https://scholar.google.com/scholar?q=biosensors"
+        },
+        "nanobiotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=nanobiotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=nanobiotechnology",
+            "reading": "https://scholar.google.com/scholar?q=nanobiotechnology"
+        },
+        "biomaterials": {
+            "youtube": "https://www.youtube.com/results?search_query=biomaterials+tutorial",
+            "course": "https://www.edx.org/search?q=biomaterials",
+            "reading": "https://scholar.google.com/scholar?q=biomaterials"
+        },
+        "immunotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=immunotechnology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=immunotechnology",
+            "reading": "https://scholar.google.com/scholar?q=immunotechnology"
+        },
+        "immunology": {
+            "youtube": "https://www.youtube.com/results?search_query=immunology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=immunology",
+            "reading": "https://scholar.google.com/scholar?q=immunology"
+        },
+        "vaccine technology": {
+            "youtube": "https://www.youtube.com/results?search_query=vaccine+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=vaccine+technology",
+            "reading": "https://scholar.google.com/scholar?q=vaccine+technology"
+        },
+        "industrial biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=industrial+biotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=industrial+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=industrial+biotechnology"
+        },
+        "environmental biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=environmental+biotechnology+tutorial",
+            "course": "https://www.edx.org/search?q=environmental+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=environmental+biotechnology"
+        },
+        "plant biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=plant+biotechnology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=plant+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=plant+biotechnology"
+        },
+        "animal biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=animal+biotechnology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=animal+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=animal+biotechnology"
+        },
+        "food biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=food+biotechnology+tutorial",
+            "course": "https://www.coursera.org/search?query=food+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=food+biotechnology"
+        },
+        "quality control in biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=quality+control+in+biotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=quality+control+in+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=quality+control+in+biotechnology"
+        },
+        "flow cytometry": {
+            "youtube": "https://www.youtube.com/results?search_query=flow+cytometry+tutorial",
+            "course": "https://www.edx.org/search?q=flow+cytometry",
+            "reading": "https://scholar.google.com/scholar?q=flow+cytometry"
+        },
+        "cell culture techniques": {
+            "youtube": "https://www.youtube.com/results?search_query=cell+culture+techniques+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=cell+culture+techniques",
+            "reading": "https://scholar.google.com/scholar?q=cell+culture+techniques"
+        },
+        "mammalian cell culture": {
+            "youtube": "https://www.youtube.com/results?search_query=mammalian+cell+culture+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=mammalian+cell+culture",
+            "reading": "https://scholar.google.com/scholar?q=mammalian+cell+culture"
+        },
+        "microbial culture technology": {
+            "youtube": "https://www.youtube.com/results?search_query=microbial+culture+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=microbial+culture+technology",
+            "reading": "https://scholar.google.com/scholar?q=microbial+culture+technology"
+        },
+        "western blotting": {
+            "youtube": "https://www.youtube.com/results?search_query=western+blotting+tutorial",
+            "course": "https://www.classcentral.com/search?q=western+blotting",
+            "reading": "https://scholar.google.com/scholar?q=western+blotting"
+        },
+        "southern blotting": {
+            "youtube": "https://www.youtube.com/results?search_query=southern+blotting+tutorial",
+            "course": "https://www.edx.org/search?q=southern+blotting",
+            "reading": "https://scholar.google.com/scholar?q=southern+blotting"
+        },
+        "northern blotting": {
+            "youtube": "https://www.youtube.com/results?search_query=northern+blotting+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=northern+blotting",
+            "reading": "https://scholar.google.com/scholar?q=northern+blotting"
+        },
+        "gel electrophoresis": {
+            "youtube": "https://www.youtube.com/results?search_query=gel+electrophoresis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=gel+electrophoresis",
+            "reading": "https://scholar.google.com/scholar?q=gel+electrophoresis"
+        },
+        "chromatography techniques": {
+            "youtube": "https://www.youtube.com/results?search_query=chromatography+techniques+tutorial",
+            "course": "https://www.coursera.org/search?query=chromatography+techniques",
+            "reading": "https://scholar.google.com/scholar?q=chromatography+techniques"
+        },
+        "mass spectrometry": {
+            "youtube": "https://www.youtube.com/results?search_query=mass+spectrometry+tutorial",
+            "course": "https://www.classcentral.com/search?q=mass+spectrometry",
+            "reading": "https://scholar.google.com/scholar?q=mass+spectrometry"
+        },
+        "x ray crystallography": {
+            "youtube": "https://www.youtube.com/results?search_query=x+ray+crystallography+tutorial",
+            "course": "https://www.edx.org/search?q=x+ray+crystallography",
+            "reading": "https://scholar.google.com/scholar?q=x+ray+crystallography"
+        },
+        "nmr spectroscopy": {
+            "youtube": "https://www.youtube.com/results?search_query=nmr+spectroscopy+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=nmr+spectroscopy",
+            "reading": "https://scholar.google.com/scholar?q=nmr+spectroscopy"
+        },
+        "fluorescence microscopy": {
+            "youtube": "https://www.youtube.com/results?search_query=fluorescence+microscopy+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=fluorescence+microscopy",
+            "reading": "https://scholar.google.com/scholar?q=fluorescence+microscopy"
+        },
+        "confocal microscopy": {
+            "youtube": "https://www.youtube.com/results?search_query=confocal+microscopy+tutorial",
+            "course": "https://www.coursera.org/search?query=confocal+microscopy",
+            "reading": "https://scholar.google.com/scholar?q=confocal+microscopy"
+        },
+        "electron microscopy": {
+            "youtube": "https://www.youtube.com/results?search_query=electron+microscopy+tutorial",
+            "course": "https://www.classcentral.com/search?q=electron+microscopy",
+            "reading": "https://scholar.google.com/scholar?q=electron+microscopy"
+        },
+        "single cell sequencing": {
+            "youtube": "https://www.youtube.com/results?search_query=single+cell+sequencing+tutorial",
+            "course": "https://www.edx.org/search?q=single+cell+sequencing",
+            "reading": "https://scholar.google.com/scholar?q=single+cell+sequencing"
+        },
+        "epigenetics": {
+            "youtube": "https://www.youtube.com/results?search_query=epigenetics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=epigenetics",
+            "reading": "https://scholar.google.com/scholar?q=epigenetics"
+        },
+        "functional genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=functional+genomics+tutorial",
+            "course": "https://www.coursera.org/search?query=functional+genomics",
+            "reading": "https://scholar.google.com/scholar?q=functional+genomics"
+        },
+        "comparative genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=comparative+genomics+tutorial",
+            "course": "https://www.classcentral.com/search?q=comparative+genomics",
+            "reading": "https://scholar.google.com/scholar?q=comparative+genomics"
+        },
+        "metagenomics": {
+            "youtube": "https://www.youtube.com/results?search_query=metagenomics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=metagenomics",
+            "reading": "https://scholar.google.com/scholar?q=metagenomics"
+        },
+        "phylogenetic analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=phylogenetic+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=phylogenetic+analysis",
+            "reading": "https://scholar.google.com/scholar?q=phylogenetic+analysis"
+        },
+        "molecular docking": {
+            "youtube": "https://www.youtube.com/results?search_query=molecular+docking+tutorial",
+            "course": "https://www.coursera.org/search?query=molecular+docking",
+            "reading": "https://scholar.google.com/scholar?q=molecular+docking"
+        },
+        "molecular dynamics simulation": {
+            "youtube": "https://www.youtube.com/results?search_query=molecular+dynamics+simulation+tutorial",
+            "course": "https://www.classcentral.com/search?q=molecular+dynamics+simulation",
+            "reading": "https://scholar.google.com/scholar?q=molecular+dynamics+simulation"
+        },
+        "computational drug design": {
+            "youtube": "https://www.youtube.com/results?search_query=computational+drug+design+tutorial",
+            "course": "https://www.edx.org/search?q=computational+drug+design",
+            "reading": "https://scholar.google.com/scholar?q=computational+drug+design"
+        },
+        "cheminformatics": {
+            "youtube": "https://www.youtube.com/results?search_query=cheminformatics+tutorial",
+            "course": "https://www.coursera.org/search?query=cheminformatics",
+            "reading": "https://scholar.google.com/scholar?q=cheminformatics"
+        },
+        "toxicogenomics": {
+            "youtube": "https://www.youtube.com/results?search_query=toxicogenomics+tutorial",
+            "course": "https://www.classcentral.com/search?q=toxicogenomics",
+            "reading": "https://scholar.google.com/scholar?q=toxicogenomics"
+        },
+        "clinical biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=clinical+biotechnology+tutorial",
+            "course": "https://www.edx.org/search?q=clinical+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=clinical+biotechnology"
+        },
+        "molecular diagnostics": {
+            "youtube": "https://www.youtube.com/results?search_query=molecular+diagnostics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=molecular+diagnostics",
+            "reading": "https://scholar.google.com/scholar?q=molecular+diagnostics"
+        },
+        "precision medicine": {
+            "youtube": "https://www.youtube.com/results?search_query=precision+medicine+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=precision+medicine",
+            "reading": "https://scholar.google.com/scholar?q=precision+medicine"
+        },
+        "gene therapy": {
+            "youtube": "https://www.youtube.com/results?search_query=gene+therapy+tutorial",
+            "course": "https://www.coursera.org/search?query=gene+therapy",
+            "reading": "https://scholar.google.com/scholar?q=gene+therapy"
+        },
+        "cell therapy": {
+            "youtube": "https://www.youtube.com/results?search_query=cell+therapy+tutorial",
+            "course": "https://www.classcentral.com/search?q=cell+therapy",
+            "reading": "https://scholar.google.com/scholar?q=cell+therapy"
+        },
+        "monoclonal antibody technology": {
+            "youtube": "https://www.youtube.com/results?search_query=monoclonal+antibody+technology+tutorial",
+            "course": "https://www.edx.org/search?q=monoclonal+antibody+technology",
+            "reading": "https://scholar.google.com/scholar?q=monoclonal+antibody+technology"
+        },
+        "biotherapeutics": {
+            "youtube": "https://www.youtube.com/results?search_query=biotherapeutics+tutorial",
+            "course": "https://www.classcentral.com/search?q=biotherapeutics",
+            "reading": "https://scholar.google.com/scholar?q=biotherapeutics"
+        },
+        "glycobiology": {
+            "youtube": "https://www.youtube.com/results?search_query=glycobiology+tutorial",
+            "course": "https://www.edx.org/search?q=glycobiology",
+            "reading": "https://scholar.google.com/scholar?q=glycobiology"
+        },
+        "biocatalysis": {
+            "youtube": "https://www.youtube.com/results?search_query=biocatalysis+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=biocatalysis",
+            "reading": "https://scholar.google.com/scholar?q=biocatalysis"
+        },
+        "marine biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=marine+biotechnology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=marine+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=marine+biotechnology"
+        },
+        "agricultural biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=agricultural+biotechnology+tutorial",
+            "course": "https://www.coursera.org/search?query=agricultural+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=agricultural+biotechnology"
+        },
+        "bioremediation": {
+            "youtube": "https://www.youtube.com/results?search_query=bioremediation+tutorial",
+            "course": "https://www.edx.org/search?q=bioremediation",
+            "reading": "https://scholar.google.com/scholar?q=bioremediation"
+        },
+        "wastewater biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=wastewater+biotechnology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=wastewater+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=wastewater+biotechnology"
+        },
+        "bioenergy production": {
+            "youtube": "https://www.youtube.com/results?search_query=bioenergy+production+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=bioenergy+production",
+            "reading": "https://scholar.google.com/scholar?q=bioenergy+production"
+        },
+        "algal biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=algal+biotechnology+tutorial",
+            "course": "https://www.coursera.org/search?query=algal+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=algal+biotechnology"
+        },
+        "biopolymer technology": {
+            "youtube": "https://www.youtube.com/results?search_query=biopolymer+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=biopolymer+technology",
+            "reading": "https://scholar.google.com/scholar?q=biopolymer+technology"
+        },
+        "bioseparation engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=bioseparation+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=bioseparation+engineering",
+            "reading": "https://scholar.google.com/scholar?q=bioseparation+engineering"
+        },
+        "process analytical technology": {
+            "youtube": "https://www.youtube.com/results?search_query=process+analytical+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=process+analytical+technology",
+            "reading": "https://scholar.google.com/scholar?q=process+analytical+technology"
+        },
+        "good manufacturing practices": {
+            "youtube": "https://www.youtube.com/results?search_query=good+manufacturing+practices+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=good+manufacturing+practices",
+            "reading": "https://scholar.google.com/scholar?q=good+manufacturing+practices"
+        },
+        "regulatory affairs": {
+            "youtube": "https://www.youtube.com/results?search_query=regulatory+affairs+tutorial",
+            "course": "https://www.coursera.org/search?query=regulatory+affairs",
+            "reading": "https://scholar.google.com/scholar?q=regulatory+affairs"
+        },
+        "quality assurance in biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=quality+assurance+in+biotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=quality+assurance+in+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=quality+assurance+in+biotechnology"
+        },
+        "laboratory information management systems": {
+            "youtube": "https://www.youtube.com/results?search_query=laboratory+information+management+systems+tutorial",
+            "course": "https://www.edx.org/search?q=laboratory+information+management+systems",
+            "reading": "https://scholar.google.com/scholar?q=laboratory+information+management+systems"
+        },
+        "research data management": {
+            "youtube": "https://www.youtube.com/results?search_query=research+data+management+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=research+data+management",
+            "reading": "https://scholar.google.com/scholar?q=research+data+management"
+        },
+        "spatial transcriptomics": {
+            "youtube": "https://www.youtube.com/results?search_query=spatial+transcriptomics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=spatial+transcriptomics",
+            "reading": "https://scholar.google.com/scholar?q=spatial+transcriptomics"
+        },
+        "single cell proteomics": {
+            "youtube": "https://www.youtube.com/results?search_query=single+cell+proteomics+tutorial",
+            "course": "https://www.coursera.org/search?query=single+cell+proteomics",
+            "reading": "https://scholar.google.com/scholar?q=single+cell+proteomics"
+        },
+        "multiomics integration": {
+            "youtube": "https://www.youtube.com/results?search_query=multiomics+integration+tutorial",
+            "course": "https://www.classcentral.com/search?q=multiomics+integration",
+            "reading": "https://scholar.google.com/scholar?q=multiomics+integration"
+        },
+        "rna sequencing analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=rna+sequencing+analysis+tutorial",
+            "course": "https://www.edx.org/search?q=rna+sequencing+analysis",
+            "reading": "https://scholar.google.com/scholar?q=rna+sequencing+analysis"
+        },
+        "chip sequencing": {
+            "youtube": "https://www.youtube.com/results?search_query=chip+sequencing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=chip+sequencing",
+            "reading": "https://scholar.google.com/scholar?q=chip+sequencing"
+        },
+        "long read sequencing": {
+            "youtube": "https://www.youtube.com/results?search_query=long+read+sequencing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=long+read+sequencing",
+            "reading": "https://scholar.google.com/scholar?q=long+read+sequencing"
+        },
+        "genome assembly": {
+            "youtube": "https://www.youtube.com/results?search_query=genome+assembly+tutorial",
+            "course": "https://www.coursera.org/search?query=genome+assembly",
+            "reading": "https://scholar.google.com/scholar?q=genome+assembly"
+        },
+        "variant calling": {
+            "youtube": "https://www.youtube.com/results?search_query=variant+calling+tutorial",
+            "course": "https://www.classcentral.com/search?q=variant+calling",
+            "reading": "https://scholar.google.com/scholar?q=variant+calling"
+        },
+        "gene expression analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=gene+expression+analysis+tutorial",
+            "course": "https://www.edx.org/search?q=gene+expression+analysis",
+            "reading": "https://scholar.google.com/scholar?q=gene+expression+analysis"
+        },
+        "biological network analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=biological+network+analysis+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=biological+network+analysis",
+            "reading": "https://scholar.google.com/scholar?q=biological+network+analysis"
+        },
+        "protein structure prediction": {
+            "youtube": "https://www.youtube.com/results?search_query=protein+structure+prediction+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=protein+structure+prediction",
+            "reading": "https://scholar.google.com/scholar?q=protein+structure+prediction"
+        },
+        "alphafold": {
+            "youtube": "https://www.youtube.com/results?search_query=alphafold+tutorial",
+            "course": "https://www.classcentral.com/search?q=alphafold",
+            "reading": "https://scholar.google.com/scholar?q=alphafold"
+        },
+        "protein folding analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=protein+folding+analysis+tutorial",
+            "course": "https://www.edx.org/search?q=protein+folding+analysis",
+            "reading": "https://scholar.google.com/scholar?q=protein+folding+analysis"
+        },
+        "antibody engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=antibody+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=antibody+engineering",
+            "reading": "https://scholar.google.com/scholar?q=antibody+engineering"
+        },
+        "vaccine design": {
+            "youtube": "https://www.youtube.com/results?search_query=vaccine+design+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=vaccine+design",
+            "reading": "https://scholar.google.com/scholar?q=vaccine+design"
+        },
+        "immunoinformatics": {
+            "youtube": "https://www.youtube.com/results?search_query=immunoinformatics+tutorial",
+            "course": "https://www.classcentral.com/search?q=immunoinformatics",
+            "reading": "https://scholar.google.com/scholar?q=immunoinformatics"
+        },
+        "cancer genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=cancer+genomics+tutorial",
+            "course": "https://www.edx.org/search?q=cancer+genomics",
+            "reading": "https://scholar.google.com/scholar?q=cancer+genomics"
+        },
+        "cancer bioinformatics": {
+            "youtube": "https://www.youtube.com/results?search_query=cancer+bioinformatics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=cancer+bioinformatics",
+            "reading": "https://scholar.google.com/scholar?q=cancer+bioinformatics"
+        },
+        "microbiome analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=microbiome+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=microbiome+analysis",
+            "reading": "https://scholar.google.com/scholar?q=microbiome+analysis"
+        },
+        "host pathogen interactions": {
+            "youtube": "https://www.youtube.com/results?search_query=host+pathogen+interactions+tutorial",
+            "course": "https://www.coursera.org/search?query=host+pathogen+interactions",
+            "reading": "https://scholar.google.com/scholar?q=host+pathogen+interactions"
+        },
+        "virology": {
+            "youtube": "https://www.youtube.com/results?search_query=virology+tutorial",
+            "course": "https://www.edx.org/search?q=virology",
+            "reading": "https://scholar.google.com/scholar?q=virology"
+        },
+        "bacteriophage technology": {
+            "youtube": "https://www.youtube.com/results?search_query=bacteriophage+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=bacteriophage+technology",
+            "reading": "https://scholar.google.com/scholar?q=bacteriophage+technology"
+        },
+        "microbial genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=microbial+genomics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=microbial+genomics",
+            "reading": "https://scholar.google.com/scholar?q=microbial+genomics"
+        },
+        "industrial microbiology": {
+            "youtube": "https://www.youtube.com/results?search_query=industrial+microbiology+tutorial",
+            "course": "https://www.coursera.org/search?query=industrial+microbiology",
+            "reading": "https://scholar.google.com/scholar?q=industrial+microbiology"
+        },
+        "biomanufacturing": {
+            "youtube": "https://www.youtube.com/results?search_query=biomanufacturing+tutorial",
+            "course": "https://www.edx.org/search?q=biomanufacturing",
+            "reading": "https://scholar.google.com/scholar?q=biomanufacturing"
+        },
+        "continuous bioprocessing": {
+            "youtube": "https://www.youtube.com/results?search_query=continuous+bioprocessing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=continuous+bioprocessing",
+            "reading": "https://scholar.google.com/scholar?q=continuous+bioprocessing"
+        },
+        "process optimization in biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=process+optimization+in+biotechnology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=process+optimization+in+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=process+optimization+in+biotechnology"
+        },
+        "scale up engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=scale+up+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=scale+up+engineering",
+            "reading": "https://scholar.google.com/scholar?q=scale+up+engineering"
+        },
+        "bioprocess modeling": {
+            "youtube": "https://www.youtube.com/results?search_query=bioprocess+modeling+tutorial",
+            "course": "https://www.classcentral.com/search?q=bioprocess+modeling",
+            "reading": "https://scholar.google.com/scholar?q=bioprocess+modeling"
+        },
+        "design of experiments biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=design+of+experiments+biotechnology+tutorial",
+            "course": "https://www.edx.org/search?q=design+of+experiments+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=design+of+experiments+biotechnology"
+        },
+        "bioprocess control systems": {
+            "youtube": "https://www.youtube.com/results?search_query=bioprocess+control+systems+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=bioprocess+control+systems",
+            "reading": "https://scholar.google.com/scholar?q=bioprocess+control+systems"
+        },
+        "pharmaceutical biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=pharmaceutical+biotechnology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=pharmaceutical+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=pharmaceutical+biotechnology"
+        },
+        "biosafety regulations": {
+            "youtube": "https://www.youtube.com/results?search_query=biosafety+regulations+tutorial",
+            "course": "https://www.coursera.org/search?query=biosafety+regulations",
+            "reading": "https://scholar.google.com/scholar?q=biosafety+regulations"
+        },
+        "clinical trial design": {
+            "youtube": "https://www.youtube.com/results?search_query=clinical+trial+design+tutorial",
+            "course": "https://www.classcentral.com/search?q=clinical+trial+design",
+            "reading": "https://scholar.google.com/scholar?q=clinical+trial+design"
+        },
+        "pharmacovigilance": {
+            "youtube": "https://www.youtube.com/results?search_query=pharmacovigilance+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=pharmacovigilance",
+            "reading": "https://scholar.google.com/scholar?q=pharmacovigilance"
+        },
+        "medical biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=medical+biotechnology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=medical+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=medical+biotechnology"
+        },
+        "organ on chip technology": {
+            "youtube": "https://www.youtube.com/results?search_query=organ+on+chip+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=organ+on+chip+technology",
+            "reading": "https://scholar.google.com/scholar?q=organ+on+chip+technology"
+        },
+        "3d bioprinting": {
+            "youtube": "https://www.youtube.com/results?search_query=3d+bioprinting+tutorial",
+            "course": "https://www.classcentral.com/search?q=3d+bioprinting",
+            "reading": "https://scholar.google.com/scholar?q=3d+bioprinting"
+        },
+        "biomechanics": {
+            "youtube": "https://www.youtube.com/results?search_query=biomechanics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=biomechanics",
+            "reading": "https://scholar.google.com/scholar?q=biomechanics"
+        },
+        "neurobiotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=neurobiotechnology+tutorial",
+            "course": "https://www.coursera.org/search?query=neurobiotechnology",
+            "reading": "https://scholar.google.com/scholar?q=neurobiotechnology"
+        },
+        "biomedical signal processing": {
+            "youtube": "https://www.youtube.com/results?search_query=biomedical+signal+processing+tutorial",
+            "course": "https://www.classcentral.com/search?q=biomedical+signal+processing",
+            "reading": "https://scholar.google.com/scholar?q=biomedical+signal+processing"
+        },
+        "healthcare data analytics": {
+            "youtube": "https://www.youtube.com/results?search_query=healthcare+data+analytics+tutorial",
+            "course": "https://www.edx.org/search?q=healthcare+data+analytics",
+            "reading": "https://scholar.google.com/scholar?q=healthcare+data+analytics"
+        },
+        "machine learning for biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=machine+learning+for+biotechnology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=machine+learning+for+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=machine+learning+for+biotechnology"
+        },
+        "artificial intelligence in drug discovery": {
+            "youtube": "https://www.youtube.com/results?search_query=artificial+intelligence+in+drug+discovery+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=artificial+intelligence+in+drug+discovery",
+            "reading": "https://scholar.google.com/scholar?q=artificial+intelligence+in+drug+discovery"
+        },
+        "biological image analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=biological+image+analysis+tutorial",
+            "course": "https://www.coursera.org/search?query=biological+image+analysis",
+            "reading": "https://scholar.google.com/scholar?q=biological+image+analysis"
+        },
+        "scientific programming for biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=scientific+programming+for+biotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=scientific+programming+for+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=scientific+programming+for+biotechnology"
+        },
+        "python for bioinformatics": {
+            "youtube": "https://www.youtube.com/results?search_query=python+for+bioinformatics+tutorial",
+            "course": "https://www.edx.org/search?q=python+for+bioinformatics",
+            "reading": "https://scholar.google.com/scholar?q=python+for+bioinformatics"
+        },
+        "r programming for genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=r+programming+for+genomics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=r+programming+for+genomics",
+            "reading": "https://scholar.google.com/scholar?q=r+programming+for+genomics"
+        },
+        "scientific visualization": {
+            "youtube": "https://www.youtube.com/results?search_query=scientific+visualization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=scientific+visualization",
+            "reading": "https://scholar.google.com/scholar?q=scientific+visualization"
+        },
+        "research reproducibility": {
+            "youtube": "https://www.youtube.com/results?search_query=research+reproducibility+tutorial",
+            "course": "https://www.coursera.org/search?query=research+reproducibility",
+            "reading": "https://scholar.google.com/scholar?q=research+reproducibility"
+        },
+        "proteogenomics": {
+            "youtube": "https://www.youtube.com/results?search_query=proteogenomics+tutorial",
+            "course": "https://www.classcentral.com/search?q=proteogenomics",
+            "reading": "https://scholar.google.com/scholar?q=proteogenomics"
+        },
+        "glycoproteomics": {
+            "youtube": "https://www.youtube.com/results?search_query=glycoproteomics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=glycoproteomics",
+            "reading": "https://scholar.google.com/scholar?q=glycoproteomics"
+        },
+        "lipidomics": {
+            "youtube": "https://www.youtube.com/results?search_query=lipidomics+tutorial",
+            "course": "https://www.coursera.org/search?query=lipidomics",
+            "reading": "https://scholar.google.com/scholar?q=lipidomics"
+        },
+        "metabolic flux analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=metabolic+flux+analysis+tutorial",
+            "course": "https://www.classcentral.com/search?q=metabolic+flux+analysis",
+            "reading": "https://scholar.google.com/scholar?q=metabolic+flux+analysis"
+        },
+        "quantitative biology": {
+            "youtube": "https://www.youtube.com/results?search_query=quantitative+biology+tutorial",
+            "course": "https://www.edx.org/search?q=quantitative+biology",
+            "reading": "https://scholar.google.com/scholar?q=quantitative+biology"
+        },
+        "mathematical modeling of biological systems": {
+            "youtube": "https://www.youtube.com/results?search_query=mathematical+modeling+of+biological+systems+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=mathematical+modeling+of+biological+systems",
+            "reading": "https://scholar.google.com/scholar?q=mathematical+modeling+of+biological+systems"
+        },
+        "systems pharmacology": {
+            "youtube": "https://www.youtube.com/results?search_query=systems+pharmacology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=systems+pharmacology",
+            "reading": "https://scholar.google.com/scholar?q=systems+pharmacology"
+        },
+        "pharmacokinetics": {
+            "youtube": "https://www.youtube.com/results?search_query=pharmacokinetics+tutorial",
+            "course": "https://www.edx.org/search?q=pharmacokinetics",
+            "reading": "https://scholar.google.com/scholar?q=pharmacokinetics"
+        },
+        "pharmacodynamics": {
+            "youtube": "https://www.youtube.com/results?search_query=pharmacodynamics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=pharmacodynamics",
+            "reading": "https://scholar.google.com/scholar?q=pharmacodynamics"
+        },
+        "adme analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=adme+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=adme+analysis",
+            "reading": "https://scholar.google.com/scholar?q=adme+analysis"
+        },
+        "toxicology": {
+            "youtube": "https://www.youtube.com/results?search_query=toxicology+tutorial",
+            "course": "https://www.edx.org/search?q=toxicology",
+            "reading": "https://scholar.google.com/scholar?q=toxicology"
+        },
+        "nanomedicine": {
+            "youtube": "https://www.youtube.com/results?search_query=nanomedicine+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=nanomedicine",
+            "reading": "https://scholar.google.com/scholar?q=nanomedicine"
+        },
+        "targeted drug delivery": {
+            "youtube": "https://www.youtube.com/results?search_query=targeted+drug+delivery+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=targeted+drug+delivery",
+            "reading": "https://scholar.google.com/scholar?q=targeted+drug+delivery"
+        },
+        "microfluidics": {
+            "youtube": "https://www.youtube.com/results?search_query=microfluidics+tutorial",
+            "course": "https://www.classcentral.com/search?q=microfluidics",
+            "reading": "https://scholar.google.com/scholar?q=microfluidics"
+        },
+        "lab on a chip systems": {
+            "youtube": "https://www.youtube.com/results?search_query=lab+on+a+chip+systems+tutorial",
+            "course": "https://www.edx.org/search?q=lab+on+a+chip+systems",
+            "reading": "https://scholar.google.com/scholar?q=lab+on+a+chip+systems"
+        },
+        "point of care diagnostics": {
+            "youtube": "https://www.youtube.com/results?search_query=point+of+care+diagnostics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=point+of+care+diagnostics",
+            "reading": "https://scholar.google.com/scholar?q=point+of+care+diagnostics"
+        },
+        "wearable biosensors": {
+            "youtube": "https://www.youtube.com/results?search_query=wearable+biosensors+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=wearable+biosensors",
+            "reading": "https://scholar.google.com/scholar?q=wearable+biosensors"
+        },
+        "electrochemical biosensors": {
+            "youtube": "https://www.youtube.com/results?search_query=electrochemical+biosensors+tutorial",
+            "course": "https://www.coursera.org/search?query=electrochemical+biosensors",
+            "reading": "https://scholar.google.com/scholar?q=electrochemical+biosensors"
+        },
+        "optical biosensors": {
+            "youtube": "https://www.youtube.com/results?search_query=optical+biosensors+tutorial",
+            "course": "https://www.classcentral.com/search?q=optical+biosensors",
+            "reading": "https://scholar.google.com/scholar?q=optical+biosensors"
+        },
+        "surface plasmon resonance": {
+            "youtube": "https://www.youtube.com/results?search_query=surface+plasmon+resonance+tutorial",
+            "course": "https://www.edx.org/search?q=surface+plasmon+resonance",
+            "reading": "https://scholar.google.com/scholar?q=surface+plasmon+resonance"
+        },
+        "biophotonics": {
+            "youtube": "https://www.youtube.com/results?search_query=biophotonics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=biophotonics",
+            "reading": "https://scholar.google.com/scholar?q=biophotonics"
+        },
+        "biomedical optics": {
+            "youtube": "https://www.youtube.com/results?search_query=biomedical+optics+tutorial",
+            "course": "https://www.coursera.org/search?query=biomedical+optics",
+            "reading": "https://scholar.google.com/scholar?q=biomedical+optics"
+        },
+        "cytogenetics": {
+            "youtube": "https://www.youtube.com/results?search_query=cytogenetics+tutorial",
+            "course": "https://www.edx.org/search?q=cytogenetics",
+            "reading": "https://scholar.google.com/scholar?q=cytogenetics"
+        },
+        "population genetics": {
+            "youtube": "https://www.youtube.com/results?search_query=population+genetics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=population+genetics",
+            "reading": "https://scholar.google.com/scholar?q=population+genetics"
+        },
+        "evolutionary genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=evolutionary+genomics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=evolutionary+genomics",
+            "reading": "https://scholar.google.com/scholar?q=evolutionary+genomics"
+        },
+        "conservation genetics": {
+            "youtube": "https://www.youtube.com/results?search_query=conservation+genetics+tutorial",
+            "course": "https://www.coursera.org/search?query=conservation+genetics",
+            "reading": "https://scholar.google.com/scholar?q=conservation+genetics"
+        },
+        "forensic biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=forensic+biotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=forensic+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=forensic+biotechnology"
+        },
+        "dna fingerprinting": {
+            "youtube": "https://www.youtube.com/results?search_query=dna+fingerprinting+tutorial",
+            "course": "https://www.edx.org/search?q=dna+fingerprinting",
+            "reading": "https://scholar.google.com/scholar?q=dna+fingerprinting"
+        },
+        "protein purification": {
+            "youtube": "https://www.youtube.com/results?search_query=protein+purification+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=protein+purification",
+            "reading": "https://scholar.google.com/scholar?q=protein+purification"
+        },
+        "affinity chromatography": {
+            "youtube": "https://www.youtube.com/results?search_query=affinity+chromatography+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=affinity+chromatography",
+            "reading": "https://scholar.google.com/scholar?q=affinity+chromatography"
+        },
+        "membrane separation processes": {
+            "youtube": "https://www.youtube.com/results?search_query=membrane+separation+processes+tutorial",
+            "course": "https://www.coursera.org/search?query=membrane+separation+processes",
+            "reading": "https://scholar.google.com/scholar?q=membrane+separation+processes"
+        },
+        "biorefinery technology": {
+            "youtube": "https://www.youtube.com/results?search_query=biorefinery+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=biorefinery+technology",
+            "reading": "https://scholar.google.com/scholar?q=biorefinery+technology"
+        },
+        "synthetic genomics": {
+            "youtube": "https://www.youtube.com/results?search_query=synthetic+genomics+tutorial",
+            "course": "https://www.edx.org/search?q=synthetic+genomics",
+            "reading": "https://scholar.google.com/scholar?q=synthetic+genomics"
+        },
+        "genome writing": {
+            "youtube": "https://www.youtube.com/results?search_query=genome+writing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=genome+writing",
+            "reading": "https://scholar.google.com/scholar?q=genome+writing"
+        },
+        "cell free synthetic biology": {
+            "youtube": "https://www.youtube.com/results?search_query=cell+free+synthetic+biology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=cell+free+synthetic+biology",
+            "reading": "https://scholar.google.com/scholar?q=cell+free+synthetic+biology"
+        },
+        "metabolic pathway engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=metabolic+pathway+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=metabolic+pathway+engineering",
+            "reading": "https://scholar.google.com/scholar?q=metabolic+pathway+engineering"
+        },
+        "biofoundry operations": {
+            "youtube": "https://www.youtube.com/results?search_query=biofoundry+operations+tutorial",
+            "course": "https://www.classcentral.com/search?q=biofoundry+operations",
+            "reading": "https://scholar.google.com/scholar?q=biofoundry+operations"
+        },
+        "biodesign engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=biodesign+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=biodesign+engineering",
+            "reading": "https://scholar.google.com/scholar?q=biodesign+engineering"
+        },
+        "bioentrepreneurship": {
+            "youtube": "https://www.youtube.com/results?search_query=bioentrepreneurship+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=bioentrepreneurship",
+            "reading": "https://scholar.google.com/scholar?q=bioentrepreneurship"
+        },
+        "technology transfer in biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=technology+transfer+in+biotechnology+tutorial",
+            "course": "https://www.coursera.org/search?query=technology+transfer+in+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=technology+transfer+in+biotechnology"
+        },
+        "intellectual property in biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=intellectual+property+in+biotechnology+tutorial",
+            "course": "https://www.classcentral.com/search?q=intellectual+property+in+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=intellectual+property+in+biotechnology"
+        },
+        "biotech project management": {
+            "youtube": "https://www.youtube.com/results?search_query=biotech+project+management+tutorial",
+            "course": "https://www.edx.org/search?q=biotech+project+management",
+            "reading": "https://scholar.google.com/scholar?q=biotech+project+management"
+        },
+        "good laboratory practices": {
+            "youtube": "https://www.youtube.com/results?search_query=good+laboratory+practices+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=good+laboratory+practices",
+            "reading": "https://scholar.google.com/scholar?q=good+laboratory+practices"
+        },
+        "validation and qualification": {
+            "youtube": "https://www.youtube.com/results?search_query=validation+and+qualification+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=validation+and+qualification",
+            "reading": "https://scholar.google.com/scholar?q=validation+and+qualification"
+        },
+        "cleanroom technology": {
+            "youtube": "https://www.youtube.com/results?search_query=cleanroom+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=cleanroom+technology",
+            "reading": "https://scholar.google.com/scholar?q=cleanroom+technology"
+        },
+        "sterilization technology": {
+            "youtube": "https://www.youtube.com/results?search_query=sterilization+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=sterilization+technology",
+            "reading": "https://scholar.google.com/scholar?q=sterilization+technology"
+        },
+        "aseptic processing": {
+            "youtube": "https://www.youtube.com/results?search_query=aseptic+processing+tutorial",
+            "course": "https://www.edx.org/search?q=aseptic+processing",
+            "reading": "https://scholar.google.com/scholar?q=aseptic+processing"
+        },
+        "environmental health biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=environmental+health+biotechnology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=environmental+health+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=environmental+health+biotechnology"
+        },
+        "climate biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=climate+biotechnology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=climate+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=climate+biotechnology"
+        },
+        "carbon capture biotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=carbon+capture+biotechnology+tutorial",
+            "course": "https://www.coursera.org/search?query=carbon+capture+biotechnology",
+            "reading": "https://scholar.google.com/scholar?q=carbon+capture+biotechnology"
+        }
+    },
+    "chemical engineering": {
+        "pipeline engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=pipeline+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=pipeline+engineering",
+            "reading": "https://scholar.google.com/scholar?q=pipeline+engineering"
+        },
+        "flow assurance": {
+            "youtube": "https://www.youtube.com/results?search_query=flow+assurance+tutorial",
+            "course": "https://www.edx.org/search?q=flow+assurance",
+            "reading": "https://scholar.google.com/scholar?q=flow+assurance"
+        },
+        "upstream oil and gas processing": {
+            "youtube": "https://www.youtube.com/results?search_query=upstream+oil+and+gas+processing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=upstream+oil+and+gas+processing",
+            "reading": "https://scholar.google.com/scholar?q=upstream+oil+and+gas+processing"
+        },
+        "downstream processing": {
+            "youtube": "https://www.youtube.com/results?search_query=downstream+processing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=downstream+processing",
+            "reading": "https://scholar.google.com/scholar?q=downstream+processing"
+        },
+        "reservoir engineering fundamentals": {
+            "youtube": "https://www.youtube.com/results?search_query=reservoir+engineering+fundamentals+tutorial",
+            "course": "https://www.coursera.org/search?query=reservoir+engineering+fundamentals",
+            "reading": "https://scholar.google.com/scholar?q=reservoir+engineering+fundamentals"
+        },
+        "enhanced oil recovery": {
+            "youtube": "https://www.youtube.com/results?search_query=enhanced+oil+recovery+tutorial",
+            "course": "https://www.classcentral.com/search?q=enhanced+oil+recovery",
+            "reading": "https://scholar.google.com/scholar?q=enhanced+oil+recovery"
+        },
+        "drilling fluid technology": {
+            "youtube": "https://www.youtube.com/results?search_query=drilling+fluid+technology+tutorial",
+            "course": "https://www.edx.org/search?q=drilling+fluid+technology",
+            "reading": "https://scholar.google.com/scholar?q=drilling+fluid+technology"
+        },
+        "offshore process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=offshore+process+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=offshore+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=offshore+process+engineering"
+        },
+        "subsea engineering basics": {
+            "youtube": "https://www.youtube.com/results?search_query=subsea+engineering+basics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=subsea+engineering+basics",
+            "reading": "https://scholar.google.com/scholar?q=subsea+engineering+basics"
+        },
+        "desulfurization technology": {
+            "youtube": "https://www.youtube.com/results?search_query=desulfurization+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=desulfurization+technology",
+            "reading": "https://scholar.google.com/scholar?q=desulfurization+technology"
+        },
+        "gasification technology": {
+            "youtube": "https://www.youtube.com/results?search_query=gasification+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=gasification+technology",
+            "reading": "https://scholar.google.com/scholar?q=gasification+technology"
+        },
+        "pyrolysis technology": {
+            "youtube": "https://www.youtube.com/results?search_query=pyrolysis+technology+tutorial",
+            "course": "https://www.edx.org/search?q=pyrolysis+technology",
+            "reading": "https://scholar.google.com/scholar?q=pyrolysis+technology"
+        },
+        "coal chemical technology": {
+            "youtube": "https://www.youtube.com/results?search_query=coal+chemical+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=coal+chemical+technology",
+            "reading": "https://scholar.google.com/scholar?q=coal+chemical+technology"
+        },
+        "mineral processing": {
+            "youtube": "https://www.youtube.com/results?search_query=mineral+processing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=mineral+processing",
+            "reading": "https://scholar.google.com/scholar?q=mineral+processing"
+        },
+        "hydrometallurgy": {
+            "youtube": "https://www.youtube.com/results?search_query=hydrometallurgy+tutorial",
+            "course": "https://www.coursera.org/search?query=hydrometallurgy",
+            "reading": "https://scholar.google.com/scholar?q=hydrometallurgy"
+        },
+        "electrometallurgy": {
+            "youtube": "https://www.youtube.com/results?search_query=electrometallurgy+tutorial",
+            "course": "https://www.classcentral.com/search?q=electrometallurgy",
+            "reading": "https://scholar.google.com/scholar?q=electrometallurgy"
+        },
+        "leaching processes": {
+            "youtube": "https://www.youtube.com/results?search_query=leaching+processes+tutorial",
+            "course": "https://www.edx.org/search?q=leaching+processes",
+            "reading": "https://scholar.google.com/scholar?q=leaching+processes"
+        },
+        "agglomeration technology": {
+            "youtube": "https://www.youtube.com/results?search_query=agglomeration+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=agglomeration+technology",
+            "reading": "https://scholar.google.com/scholar?q=agglomeration+technology"
+        },
+        "slurry transport systems": {
+            "youtube": "https://www.youtube.com/results?search_query=slurry+transport+systems+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=slurry+transport+systems",
+            "reading": "https://scholar.google.com/scholar?q=slurry+transport+systems"
+        },
+        "granulation technology": {
+            "youtube": "https://www.youtube.com/results?search_query=granulation+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=granulation+technology",
+            "reading": "https://scholar.google.com/scholar?q=granulation+technology"
+        },
+        "mixing and agitation": {
+            "youtube": "https://www.youtube.com/results?search_query=mixing+and+agitation+tutorial",
+            "course": "https://www.classcentral.com/search?q=mixing+and+agitation",
+            "reading": "https://scholar.google.com/scholar?q=mixing+and+agitation"
+        },
+        "emulsion technology": {
+            "youtube": "https://www.youtube.com/results?search_query=emulsion+technology+tutorial",
+            "course": "https://www.edx.org/search?q=emulsion+technology",
+            "reading": "https://scholar.google.com/scholar?q=emulsion+technology"
+        },
+        "colloid science": {
+            "youtube": "https://www.youtube.com/results?search_query=colloid+science+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=colloid+science",
+            "reading": "https://scholar.google.com/scholar?q=colloid+science"
+        },
+        "surface chemistry": {
+            "youtube": "https://www.youtube.com/results?search_query=surface+chemistry+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=surface+chemistry",
+            "reading": "https://scholar.google.com/scholar?q=surface+chemistry"
+        },
+        "electrochemistry": {
+            "youtube": "https://www.youtube.com/results?search_query=electrochemistry+tutorial",
+            "course": "https://www.coursera.org/search?query=electrochemistry",
+            "reading": "https://scholar.google.com/scholar?q=electrochemistry"
+        },
+        "organic process technology": {
+            "youtube": "https://www.youtube.com/results?search_query=organic+process+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=organic+process+technology",
+            "reading": "https://scholar.google.com/scholar?q=organic+process+technology"
+        },
+        "inorganic process technology": {
+            "youtube": "https://www.youtube.com/results?search_query=inorganic+process+technology+tutorial",
+            "course": "https://www.edx.org/search?q=inorganic+process+technology",
+            "reading": "https://scholar.google.com/scholar?q=inorganic+process+technology"
+        },
+        "fertigation technology": {
+            "youtube": "https://www.youtube.com/results?search_query=fertigation+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=fertigation+technology",
+            "reading": "https://scholar.google.com/scholar?q=fertigation+technology"
+        },
+        "agrochemical formulation": {
+            "youtube": "https://www.youtube.com/results?search_query=agrochemical+formulation+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=agrochemical+formulation",
+            "reading": "https://scholar.google.com/scholar?q=agrochemical+formulation"
+        },
+        "pesticide technology": {
+            "youtube": "https://www.youtube.com/results?search_query=pesticide+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=pesticide+technology",
+            "reading": "https://scholar.google.com/scholar?q=pesticide+technology"
+        },
+        "water quality engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=water+quality+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=water+quality+engineering",
+            "reading": "https://scholar.google.com/scholar?q=water+quality+engineering"
+        },
+        "industrial hygiene": {
+            "youtube": "https://www.youtube.com/results?search_query=industrial+hygiene+tutorial",
+            "course": "https://www.edx.org/search?q=industrial+hygiene",
+            "reading": "https://scholar.google.com/scholar?q=industrial+hygiene"
+        },
+        "ergonomics engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=ergonomics+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=ergonomics+engineering",
+            "reading": "https://scholar.google.com/scholar?q=ergonomics+engineering"
+        },
+        "incident investigation": {
+            "youtube": "https://www.youtube.com/results?search_query=incident+investigation+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=incident+investigation",
+            "reading": "https://scholar.google.com/scholar?q=incident+investigation"
+        },
+        "permit to work systems": {
+            "youtube": "https://www.youtube.com/results?search_query=permit+to+work+systems+tutorial",
+            "course": "https://www.coursera.org/search?query=permit+to+work+systems",
+            "reading": "https://scholar.google.com/scholar?q=permit+to+work+systems"
+        },
+        "lockout tagout procedures": {
+            "youtube": "https://www.youtube.com/results?search_query=lockout+tagout+procedures+tutorial",
+            "course": "https://www.classcentral.com/search?q=lockout+tagout+procedures",
+            "reading": "https://scholar.google.com/scholar?q=lockout+tagout+procedures"
+        },
+        "confined space safety": {
+            "youtube": "https://www.youtube.com/results?search_query=confined+space+safety+tutorial",
+            "course": "https://www.edx.org/search?q=confined+space+safety",
+            "reading": "https://scholar.google.com/scholar?q=confined+space+safety"
+        },
+        "emergency response planning": {
+            "youtube": "https://www.youtube.com/results?search_query=emergency+response+planning+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=emergency+response+planning",
+            "reading": "https://scholar.google.com/scholar?q=emergency+response+planning"
+        },
+        "osha standards": {
+            "youtube": "https://www.youtube.com/results?search_query=osha+standards+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=osha+standards",
+            "reading": "https://scholar.google.com/scholar?q=osha+standards"
+        },
+        "iso 14001 implementation": {
+            "youtube": "https://www.youtube.com/results?search_query=iso+14001+implementation+tutorial",
+            "course": "https://www.coursera.org/search?query=iso+14001+implementation",
+            "reading": "https://scholar.google.com/scholar?q=iso+14001+implementation"
+        },
+        "iso 45001 implementation": {
+            "youtube": "https://www.youtube.com/results?search_query=iso+45001+implementation+tutorial",
+            "course": "https://www.classcentral.com/search?q=iso+45001+implementation",
+            "reading": "https://scholar.google.com/scholar?q=iso+45001+implementation"
+        },
+        "carbon footprint analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=carbon+footprint+analysis+tutorial",
+            "course": "https://www.edx.org/search?q=carbon+footprint+analysis",
+            "reading": "https://scholar.google.com/scholar?q=carbon+footprint+analysis"
+        },
+        "greenhouse gas accounting": {
+            "youtube": "https://www.youtube.com/results?search_query=greenhouse+gas+accounting+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=greenhouse+gas+accounting",
+            "reading": "https://scholar.google.com/scholar?q=greenhouse+gas+accounting"
+        },
+        "renewable process integration": {
+            "youtube": "https://www.youtube.com/results?search_query=renewable+process+integration+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=renewable+process+integration",
+            "reading": "https://scholar.google.com/scholar?q=renewable+process+integration"
+        },
+        "decarbonization strategies": {
+            "youtube": "https://www.youtube.com/results?search_query=decarbonization+strategies+tutorial",
+            "course": "https://www.coursera.org/search?query=decarbonization+strategies",
+            "reading": "https://scholar.google.com/scholar?q=decarbonization+strategies"
+        },
+        "artificial intelligence for process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=artificial+intelligence+for+process+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=artificial+intelligence+for+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=artificial+intelligence+for+process+engineering"
+        },
+        "big data analytics for industry": {
+            "youtube": "https://www.youtube.com/results?search_query=big+data+analytics+for+industry+tutorial",
+            "course": "https://www.edx.org/search?q=big+data+analytics+for+industry",
+            "reading": "https://scholar.google.com/scholar?q=big+data+analytics+for+industry"
+        },
+        "cloud computing for manufacturing": {
+            "youtube": "https://www.youtube.com/results?search_query=cloud+computing+for+manufacturing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=cloud+computing+for+manufacturing",
+            "reading": "https://scholar.google.com/scholar?q=cloud+computing+for+manufacturing"
+        },
+        "simulation based optimization": {
+            "youtube": "https://www.youtube.com/results?search_query=simulation+based+optimization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=simulation+based+optimization",
+            "reading": "https://scholar.google.com/scholar?q=simulation+based+optimization"
+        },
+        "knowledge of asme codes": {
+            "youtube": "https://www.youtube.com/results?search_query=knowledge+of+asme+codes+tutorial",
+            "course": "https://www.coursera.org/search?query=knowledge+of+asme+codes",
+            "reading": "https://scholar.google.com/scholar?q=knowledge+of+asme+codes"
+        },
+        "turnaround management": {
+            "youtube": "https://www.youtube.com/results?search_query=turnaround+management+tutorial",
+            "course": "https://www.classcentral.com/search?q=turnaround+management",
+            "reading": "https://scholar.google.com/scholar?q=turnaround+management"
+        },
+        "chemical plant design": {
+            "youtube": "https://www.youtube.com/results?search_query=chemical+plant+design+tutorial",
+            "course": "https://www.edx.org/search?q=chemical+plant+design",
+            "reading": "https://scholar.google.com/scholar?q=chemical+plant+design"
+        },
+        "pfd development": {
+            "youtube": "https://www.youtube.com/results?search_query=pfd+development+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=pfd+development",
+            "reading": "https://scholar.google.com/scholar?q=pfd+development"
+        },
+        "equipment sizing": {
+            "youtube": "https://www.youtube.com/results?search_query=equipment+sizing+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=equipment+sizing",
+            "reading": "https://scholar.google.com/scholar?q=equipment+sizing"
+        },
+        "pressure vessel design": {
+            "youtube": "https://www.youtube.com/results?search_query=pressure+vessel+design+tutorial",
+            "course": "https://www.coursera.org/search?query=pressure+vessel+design",
+            "reading": "https://scholar.google.com/scholar?q=pressure+vessel+design"
+        },
+        "heat exchanger network design": {
+            "youtube": "https://www.youtube.com/results?search_query=heat+exchanger+network+design+tutorial",
+            "course": "https://www.classcentral.com/search?q=heat+exchanger+network+design",
+            "reading": "https://scholar.google.com/scholar?q=heat+exchanger+network+design"
+        },
+        "pinch analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=pinch+analysis+tutorial",
+            "course": "https://www.edx.org/search?q=pinch+analysis",
+            "reading": "https://scholar.google.com/scholar?q=pinch+analysis"
+        },
+        "batch process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=batch+process+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=batch+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=batch+process+engineering"
+        },
+        "continuous process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=continuous+process+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=continuous+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=continuous+process+engineering"
+        },
+        "reactor design": {
+            "youtube": "https://www.youtube.com/results?search_query=reactor+design+tutorial",
+            "course": "https://www.coursera.org/search?query=reactor+design",
+            "reading": "https://scholar.google.com/scholar?q=reactor+design"
+        },
+        "combustion engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=combustion+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=combustion+engineering",
+            "reading": "https://scholar.google.com/scholar?q=combustion+engineering"
+        },
+        "gas processing": {
+            "youtube": "https://www.youtube.com/results?search_query=gas+processing+tutorial",
+            "course": "https://www.edx.org/search?q=gas+processing",
+            "reading": "https://scholar.google.com/scholar?q=gas+processing"
+        },
+        "lng technology": {
+            "youtube": "https://www.youtube.com/results?search_query=lng+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=lng+technology",
+            "reading": "https://scholar.google.com/scholar?q=lng+technology"
+        },
+        "fertilizer technology": {
+            "youtube": "https://www.youtube.com/results?search_query=fertilizer+technology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=fertilizer+technology",
+            "reading": "https://scholar.google.com/scholar?q=fertilizer+technology"
+        },
+        "cement manufacturing technology": {
+            "youtube": "https://www.youtube.com/results?search_query=cement+manufacturing+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=cement+manufacturing+technology",
+            "reading": "https://scholar.google.com/scholar?q=cement+manufacturing+technology"
+        },
+        "paper and pulp technology": {
+            "youtube": "https://www.youtube.com/results?search_query=paper+and+pulp+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=paper+and+pulp+technology",
+            "reading": "https://scholar.google.com/scholar?q=paper+and+pulp+technology"
+        },
+        "sugar process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=sugar+process+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=sugar+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=sugar+process+engineering"
+        },
+        "oleochemical technology": {
+            "youtube": "https://www.youtube.com/results?search_query=oleochemical+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=oleochemical+technology",
+            "reading": "https://scholar.google.com/scholar?q=oleochemical+technology"
+        },
+        "surfactant technology": {
+            "youtube": "https://www.youtube.com/results?search_query=surfactant+technology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=surfactant+technology",
+            "reading": "https://scholar.google.com/scholar?q=surfactant+technology"
+        },
+        "paint and coatings technology": {
+            "youtube": "https://www.youtube.com/results?search_query=paint+and+coatings+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=paint+and+coatings+technology",
+            "reading": "https://scholar.google.com/scholar?q=paint+and+coatings+technology"
+        },
+        "ceramic engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=ceramic+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=ceramic+engineering",
+            "reading": "https://scholar.google.com/scholar?q=ceramic+engineering"
+        },
+        "advanced materials engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=advanced+materials+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=advanced+materials+engineering",
+            "reading": "https://scholar.google.com/scholar?q=advanced+materials+engineering"
+        },
+        "carbon materials": {
+            "youtube": "https://www.youtube.com/results?search_query=carbon+materials+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=carbon+materials",
+            "reading": "https://scholar.google.com/scholar?q=carbon+materials"
+        },
+        "fuel cell technology": {
+            "youtube": "https://www.youtube.com/results?search_query=fuel+cell+technology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=fuel+cell+technology",
+            "reading": "https://scholar.google.com/scholar?q=fuel+cell+technology"
+        },
+        "biofuels technology": {
+            "youtube": "https://www.youtube.com/results?search_query=biofuels+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=biofuels+technology",
+            "reading": "https://scholar.google.com/scholar?q=biofuels+technology"
+        },
+        "waste to energy technology": {
+            "youtube": "https://www.youtube.com/results?search_query=waste+to+energy+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=waste+to+energy+technology",
+            "reading": "https://scholar.google.com/scholar?q=waste+to+energy+technology"
+        },
+        "anaerobic digestion": {
+            "youtube": "https://www.youtube.com/results?search_query=anaerobic+digestion+tutorial",
+            "course": "https://www.edx.org/search?q=anaerobic+digestion",
+            "reading": "https://scholar.google.com/scholar?q=anaerobic+digestion"
+        },
+        "microreactor technology": {
+            "youtube": "https://www.youtube.com/results?search_query=microreactor+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=microreactor+technology",
+            "reading": "https://scholar.google.com/scholar?q=microreactor+technology"
+        },
+        "membrane reactors": {
+            "youtube": "https://www.youtube.com/results?search_query=membrane+reactors+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=membrane+reactors",
+            "reading": "https://scholar.google.com/scholar?q=membrane+reactors"
+        },
+        "supercritical fluid technology": {
+            "youtube": "https://www.youtube.com/results?search_query=supercritical+fluid+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=supercritical+fluid+technology",
+            "reading": "https://scholar.google.com/scholar?q=supercritical+fluid+technology"
+        },
+        "electrospinning": {
+            "youtube": "https://www.youtube.com/results?search_query=electrospinning+tutorial",
+            "course": "https://www.classcentral.com/search?q=electrospinning",
+            "reading": "https://scholar.google.com/scholar?q=electrospinning"
+        },
+        "process analytical technology": {
+            "youtube": "https://www.youtube.com/results?search_query=process+analytical+technology+tutorial",
+            "course": "https://www.edx.org/search?q=process+analytical+technology",
+            "reading": "https://scholar.google.com/scholar?q=process+analytical+technology"
+        },
+        "spectroscopy techniques": {
+            "youtube": "https://www.youtube.com/results?search_query=spectroscopy+techniques+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=spectroscopy+techniques",
+            "reading": "https://scholar.google.com/scholar?q=spectroscopy+techniques"
+        },
+        "chromatography": {
+            "youtube": "https://www.youtube.com/results?search_query=chromatography+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=chromatography",
+            "reading": "https://scholar.google.com/scholar?q=chromatography"
+        },
+        "mass spectrometry": {
+            "youtube": "https://www.youtube.com/results?search_query=mass+spectrometry+tutorial",
+            "course": "https://www.coursera.org/search?query=mass+spectrometry",
+            "reading": "https://scholar.google.com/scholar?q=mass+spectrometry"
+        },
+        "analytical chemistry": {
+            "youtube": "https://www.youtube.com/results?search_query=analytical+chemistry+tutorial",
+            "course": "https://www.classcentral.com/search?q=analytical+chemistry",
+            "reading": "https://scholar.google.com/scholar?q=analytical+chemistry"
+        },
+        "quality assurance": {
+            "youtube": "https://www.youtube.com/results?search_query=quality+assurance+tutorial",
+            "course": "https://www.edx.org/search?q=quality+assurance",
+            "reading": "https://scholar.google.com/scholar?q=quality+assurance"
+        },
+        "failure mode and effects analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=failure+mode+and+effects+analysis+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=failure+mode+and+effects+analysis",
+            "reading": "https://scholar.google.com/scholar?q=failure+mode+and+effects+analysis"
+        },
+        "fault tree analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=fault+tree+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=fault+tree+analysis",
+            "reading": "https://scholar.google.com/scholar?q=fault+tree+analysis"
+        },
+        "hazardous waste management": {
+            "youtube": "https://www.youtube.com/results?search_query=hazardous+waste+management+tutorial",
+            "course": "https://www.coursera.org/search?query=hazardous+waste+management",
+            "reading": "https://scholar.google.com/scholar?q=hazardous+waste+management"
+        },
+        "occupational toxicology": {
+            "youtube": "https://www.youtube.com/results?search_query=occupational+toxicology+tutorial",
+            "course": "https://www.classcentral.com/search?q=occupational+toxicology",
+            "reading": "https://scholar.google.com/scholar?q=occupational+toxicology"
+        },
+        "environmental impact assessment": {
+            "youtube": "https://www.youtube.com/results?search_query=environmental+impact+assessment+tutorial",
+            "course": "https://www.edx.org/search?q=environmental+impact+assessment",
+            "reading": "https://scholar.google.com/scholar?q=environmental+impact+assessment"
+        },
+        "circular economy engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=circular+economy+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=circular+economy+engineering",
+            "reading": "https://scholar.google.com/scholar?q=circular+economy+engineering"
+        },
+        "process digitalization": {
+            "youtube": "https://www.youtube.com/results?search_query=process+digitalization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=process+digitalization",
+            "reading": "https://scholar.google.com/scholar?q=process+digitalization"
+        },
+        "industrial cybersecurity": {
+            "youtube": "https://www.youtube.com/results?search_query=industrial+cybersecurity+tutorial",
+            "course": "https://www.coursera.org/search?query=industrial+cybersecurity",
+            "reading": "https://scholar.google.com/scholar?q=industrial+cybersecurity"
+        },
+        "advanced process control": {
+            "youtube": "https://www.youtube.com/results?search_query=advanced+process+control+tutorial",
+            "course": "https://www.classcentral.com/search?q=advanced+process+control",
+            "reading": "https://scholar.google.com/scholar?q=advanced+process+control"
+        },
+        "model predictive control": {
+            "youtube": "https://www.youtube.com/results?search_query=model+predictive+control+tutorial",
+            "course": "https://www.edx.org/search?q=model+predictive+control",
+            "reading": "https://scholar.google.com/scholar?q=model+predictive+control"
+        },
+        "soft sensors": {
+            "youtube": "https://www.youtube.com/results?search_query=soft+sensors+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=soft+sensors",
+            "reading": "https://scholar.google.com/scholar?q=soft+sensors"
+        },
+        "process troubleshooting": {
+            "youtube": "https://www.youtube.com/results?search_query=process+troubleshooting+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=process+troubleshooting",
+            "reading": "https://scholar.google.com/scholar?q=process+troubleshooting"
+        },
+        "startup and shutdown operations": {
+            "youtube": "https://www.youtube.com/results?search_query=startup+and+shutdown+operations+tutorial",
+            "course": "https://www.coursera.org/search?query=startup+and+shutdown+operations",
+            "reading": "https://scholar.google.com/scholar?q=startup+and+shutdown+operations"
+        },
+        "commissioning engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=commissioning+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=commissioning+engineering",
+            "reading": "https://scholar.google.com/scholar?q=commissioning+engineering"
+        },
+        "finite element analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=finite+element+analysis+tutorial",
+            "course": "https://www.edx.org/search?q=finite+element+analysis",
+            "reading": "https://scholar.google.com/scholar?q=finite+element+analysis"
+        },
+        "solidworks": {
+            "youtube": "https://www.youtube.com/results?search_query=solidworks+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=solidworks",
+            "reading": "https://scholar.google.com/scholar?q=solidworks"
+        },
+        "autocad plant 3d": {
+            "youtube": "https://www.youtube.com/results?search_query=autocad+plant+3d+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=autocad+plant+3d",
+            "reading": "https://scholar.google.com/scholar?q=autocad+plant+3d"
+        },
+        "compressible flow": {
+            "youtube": "https://www.youtube.com/results?search_query=compressible+flow+tutorial",
+            "course": "https://www.coursera.org/search?query=compressible+flow",
+            "reading": "https://scholar.google.com/scholar?q=compressible+flow"
+        },
+        "multiphase flow": {
+            "youtube": "https://www.youtube.com/results?search_query=multiphase+flow+tutorial",
+            "course": "https://www.classcentral.com/search?q=multiphase+flow",
+            "reading": "https://scholar.google.com/scholar?q=multiphase+flow"
+        },
+        "rheology": {
+            "youtube": "https://www.youtube.com/results?search_query=rheology+tutorial",
+            "course": "https://www.edx.org/search?q=rheology",
+            "reading": "https://scholar.google.com/scholar?q=rheology"
+        },
+        "powder technology": {
+            "youtube": "https://www.youtube.com/results?search_query=powder+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=powder+technology",
+            "reading": "https://scholar.google.com/scholar?q=powder+technology"
+        },
+        "crystallization": {
+            "youtube": "https://www.youtube.com/results?search_query=crystallization+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=crystallization",
+            "reading": "https://scholar.google.com/scholar?q=crystallization"
+        },
+        "drying technology": {
+            "youtube": "https://www.youtube.com/results?search_query=drying+technology+tutorial",
+            "course": "https://www.coursera.org/search?query=drying+technology",
+            "reading": "https://scholar.google.com/scholar?q=drying+technology"
+        },
+        "adsorption technology": {
+            "youtube": "https://www.youtube.com/results?search_query=adsorption+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=adsorption+technology",
+            "reading": "https://scholar.google.com/scholar?q=adsorption+technology"
+        },
+        "ion exchange processes": {
+            "youtube": "https://www.youtube.com/results?search_query=ion+exchange+processes+tutorial",
+            "course": "https://www.edx.org/search?q=ion+exchange+processes",
+            "reading": "https://scholar.google.com/scholar?q=ion+exchange+processes"
+        },
+        "fermentation technology": {
+            "youtube": "https://www.youtube.com/results?search_query=fermentation+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=fermentation+technology",
+            "reading": "https://scholar.google.com/scholar?q=fermentation+technology"
+        },
+        "enzyme engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=enzyme+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=enzyme+engineering",
+            "reading": "https://scholar.google.com/scholar?q=enzyme+engineering"
+        },
+        "food process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=food+process+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=food+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=food+process+engineering"
+        },
+        "pharmaceutical engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=pharmaceutical+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=pharmaceutical+engineering",
+            "reading": "https://scholar.google.com/scholar?q=pharmaceutical+engineering"
+        },
+        "gmp compliance": {
+            "youtube": "https://www.youtube.com/results?search_query=gmp+compliance+tutorial",
+            "course": "https://www.edx.org/search?q=gmp+compliance",
+            "reading": "https://scholar.google.com/scholar?q=gmp+compliance"
+        },
+        "validation engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=validation+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=validation+engineering",
+            "reading": "https://scholar.google.com/scholar?q=validation+engineering"
+        },
+        "cleanroom technology": {
+            "youtube": "https://www.youtube.com/results?search_query=cleanroom+technology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=cleanroom+technology",
+            "reading": "https://scholar.google.com/scholar?q=cleanroom+technology"
+        },
+        "occupational health and safety": {
+            "youtube": "https://www.youtube.com/results?search_query=occupational+health+and+safety+tutorial",
+            "course": "https://www.coursera.org/search?query=occupational+health+and+safety",
+            "reading": "https://scholar.google.com/scholar?q=occupational+health+and+safety"
+        },
+        "fire and explosion engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=fire+and+explosion+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=fire+and+explosion+engineering",
+            "reading": "https://scholar.google.com/scholar?q=fire+and+explosion+engineering"
+        },
+        "relief valve sizing": {
+            "youtube": "https://www.youtube.com/results?search_query=relief+valve+sizing+tutorial",
+            "course": "https://www.edx.org/search?q=relief+valve+sizing",
+            "reading": "https://scholar.google.com/scholar?q=relief+valve+sizing"
+        },
+        "boiler operations": {
+            "youtube": "https://www.youtube.com/results?search_query=boiler+operations+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=boiler+operations",
+            "reading": "https://scholar.google.com/scholar?q=boiler+operations"
+        },
+        "steam system engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=steam+system+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=steam+system+engineering",
+            "reading": "https://scholar.google.com/scholar?q=steam+system+engineering"
+        },
+        "refrigeration and air conditioning": {
+            "youtube": "https://www.youtube.com/results?search_query=refrigeration+and+air+conditioning+tutorial",
+            "course": "https://www.coursera.org/search?query=refrigeration+and+air+conditioning",
+            "reading": "https://scholar.google.com/scholar?q=refrigeration+and+air+conditioning"
+        },
+        "cryogenic engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=cryogenic+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=cryogenic+engineering",
+            "reading": "https://scholar.google.com/scholar?q=cryogenic+engineering"
+        },
+        "nuclear chemical engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=nuclear+chemical+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=nuclear+chemical+engineering",
+            "reading": "https://scholar.google.com/scholar?q=nuclear+chemical+engineering"
+        },
+        "corrosion engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=corrosion+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=corrosion+engineering",
+            "reading": "https://scholar.google.com/scholar?q=corrosion+engineering"
+        },
+        "materials selection": {
+            "youtube": "https://www.youtube.com/results?search_query=materials+selection+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=materials+selection",
+            "reading": "https://scholar.google.com/scholar?q=materials+selection"
+        },
+        "surface engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=surface+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=surface+engineering",
+            "reading": "https://scholar.google.com/scholar?q=surface+engineering"
+        },
+        "water desalination": {
+            "youtube": "https://www.youtube.com/results?search_query=water+desalination+tutorial",
+            "course": "https://www.classcentral.com/search?q=water+desalination",
+            "reading": "https://scholar.google.com/scholar?q=water+desalination"
+        },
+        "air pollution control": {
+            "youtube": "https://www.youtube.com/results?search_query=air+pollution+control+tutorial",
+            "course": "https://www.edx.org/search?q=air+pollution+control",
+            "reading": "https://scholar.google.com/scholar?q=air+pollution+control"
+        },
+        "solid waste management": {
+            "youtube": "https://www.youtube.com/results?search_query=solid+waste+management+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=solid+waste+management",
+            "reading": "https://scholar.google.com/scholar?q=solid+waste+management"
+        },
+        "life cycle assessment": {
+            "youtube": "https://www.youtube.com/results?search_query=life+cycle+assessment+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=life+cycle+assessment",
+            "reading": "https://scholar.google.com/scholar?q=life+cycle+assessment"
+        },
+        "green chemistry": {
+            "youtube": "https://www.youtube.com/results?search_query=green+chemistry+tutorial",
+            "course": "https://www.coursera.org/search?query=green+chemistry",
+            "reading": "https://scholar.google.com/scholar?q=green+chemistry"
+        },
+        "process intensification": {
+            "youtube": "https://www.youtube.com/results?search_query=process+intensification+tutorial",
+            "course": "https://www.classcentral.com/search?q=process+intensification",
+            "reading": "https://scholar.google.com/scholar?q=process+intensification"
+        },
+        "smart manufacturing": {
+            "youtube": "https://www.youtube.com/results?search_query=smart+manufacturing+tutorial",
+            "course": "https://www.edx.org/search?q=smart+manufacturing",
+            "reading": "https://scholar.google.com/scholar?q=smart+manufacturing"
+        },
+        "internet of things for industry": {
+            "youtube": "https://www.youtube.com/results?search_query=internet+of+things+for+industry+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=internet+of+things+for+industry",
+            "reading": "https://scholar.google.com/scholar?q=internet+of+things+for+industry"
+        },
+        "predictive maintenance": {
+            "youtube": "https://www.youtube.com/results?search_query=predictive+maintenance+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=predictive+maintenance",
+            "reading": "https://scholar.google.com/scholar?q=predictive+maintenance"
+        },
+        "reliability engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=reliability+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=reliability+engineering",
+            "reading": "https://scholar.google.com/scholar?q=reliability+engineering"
+        },
+        "maintenance engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=maintenance+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=maintenance+engineering",
+            "reading": "https://scholar.google.com/scholar?q=maintenance+engineering"
+        },
+        "erp systems": {
+            "youtube": "https://www.youtube.com/results?search_query=erp+systems+tutorial",
+            "course": "https://www.edx.org/search?q=erp+systems",
+            "reading": "https://scholar.google.com/scholar?q=erp+systems"
+        },
+        "sap for manufacturing": {
+            "youtube": "https://www.youtube.com/results?search_query=sap+for+manufacturing+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=sap+for+manufacturing",
+            "reading": "https://scholar.google.com/scholar?q=sap+for+manufacturing"
+        },
+        "statistical process control": {
+            "youtube": "https://www.youtube.com/results?search_query=statistical+process+control+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=statistical+process+control",
+            "reading": "https://scholar.google.com/scholar?q=statistical+process+control"
+        },
+        "design of experiments": {
+            "youtube": "https://www.youtube.com/results?search_query=design+of+experiments+tutorial",
+            "course": "https://www.coursera.org/search?query=design+of+experiments",
+            "reading": "https://scholar.google.com/scholar?q=design+of+experiments"
+        },
+        "advanced excel for engineers": {
+            "youtube": "https://www.youtube.com/results?search_query=advanced+excel+for+engineers+tutorial",
+            "course": "https://www.classcentral.com/search?q=advanced+excel+for+engineers",
+            "reading": "https://scholar.google.com/scholar?q=advanced+excel+for+engineers"
+        },
+        "technical documentation": {
+            "youtube": "https://www.youtube.com/results?search_query=technical+documentation+tutorial",
+            "course": "https://www.edx.org/search?q=technical+documentation",
+            "reading": "https://scholar.google.com/scholar?q=technical+documentation"
+        },
+        "economic analysis for engineers": {
+            "youtube": "https://www.youtube.com/results?search_query=economic+analysis+for+engineers+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=economic+analysis+for+engineers",
+            "reading": "https://scholar.google.com/scholar?q=economic+analysis+for+engineers"
+        },
+        "techno economic feasibility analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=techno+economic+feasibility+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=techno+economic+feasibility+analysis",
+            "reading": "https://scholar.google.com/scholar?q=techno+economic+feasibility+analysis"
+        },
+        "supply chain analytics": {
+            "youtube": "https://www.youtube.com/results?search_query=supply+chain+analytics+tutorial",
+            "course": "https://www.coursera.org/search?query=supply+chain+analytics",
+            "reading": "https://scholar.google.com/scholar?q=supply+chain+analytics"
+        },
+        "energy auditing": {
+            "youtube": "https://www.youtube.com/results?search_query=energy+auditing+tutorial",
+            "course": "https://www.classcentral.com/search?q=energy+auditing",
+            "reading": "https://scholar.google.com/scholar?q=energy+auditing"
+        },
+        "utility system design": {
+            "youtube": "https://www.youtube.com/results?search_query=utility+system+design+tutorial",
+            "course": "https://www.edx.org/search?q=utility+system+design",
+            "reading": "https://scholar.google.com/scholar?q=utility+system+design"
+        },
+        "api standards and codes": {
+            "youtube": "https://www.youtube.com/results?search_query=api+standards+and+codes+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=api+standards+and+codes",
+            "reading": "https://scholar.google.com/scholar?q=api+standards+and+codes"
+        },
+        "process simulation": {
+            "youtube": "https://www.youtube.com/results?search_query=process+simulation+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=process+simulation",
+            "reading": "https://scholar.google.com/scholar?q=process+simulation"
+        },
+        "aspen hysys": {
+            "youtube": "https://www.youtube.com/results?search_query=aspen+hysys+tutorial",
+            "course": "https://www.coursera.org/search?query=aspen+hysys",
+            "reading": "https://scholar.google.com/scholar?q=aspen+hysys"
+        },
+        "aspen plus": {
+            "youtube": "https://www.youtube.com/results?search_query=aspen+plus+tutorial",
+            "course": "https://www.classcentral.com/search?q=aspen+plus",
+            "reading": "https://scholar.google.com/scholar?q=aspen+plus"
+        },
+        "chemical reaction engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=chemical+reaction+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=chemical+reaction+engineering",
+            "reading": "https://scholar.google.com/scholar?q=chemical+reaction+engineering"
+        },
+        "process control": {
+            "youtube": "https://www.youtube.com/results?search_query=process+control+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=process+control",
+            "reading": "https://scholar.google.com/scholar?q=process+control"
+        },
+        "instrumentation engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=instrumentation+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=instrumentation+engineering",
+            "reading": "https://scholar.google.com/scholar?q=instrumentation+engineering"
+        },
+        "heat transfer": {
+            "youtube": "https://www.youtube.com/results?search_query=heat+transfer+tutorial",
+            "course": "https://www.coursera.org/search?query=heat+transfer",
+            "reading": "https://scholar.google.com/scholar?q=heat+transfer"
+        },
+        "mass transfer": {
+            "youtube": "https://www.youtube.com/results?search_query=mass+transfer+tutorial",
+            "course": "https://www.classcentral.com/search?q=mass+transfer",
+            "reading": "https://scholar.google.com/scholar?q=mass+transfer"
+        },
+        "fluid mechanics": {
+            "youtube": "https://www.youtube.com/results?search_query=fluid+mechanics+tutorial",
+            "course": "https://www.edx.org/search?q=fluid+mechanics",
+            "reading": "https://scholar.google.com/scholar?q=fluid+mechanics"
+        },
+        "thermodynamics": {
+            "youtube": "https://www.youtube.com/results?search_query=thermodynamics+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=thermodynamics",
+            "reading": "https://scholar.google.com/scholar?q=thermodynamics"
+        },
+        "computational fluid dynamics": {
+            "youtube": "https://www.youtube.com/results?search_query=computational+fluid+dynamics+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=computational+fluid+dynamics",
+            "reading": "https://scholar.google.com/scholar?q=computational+fluid+dynamics"
+        },
+        "ansys fluent": {
+            "youtube": "https://www.youtube.com/results?search_query=ansys+fluent+tutorial",
+            "course": "https://www.coursera.org/search?query=ansys+fluent",
+            "reading": "https://scholar.google.com/scholar?q=ansys+fluent"
+        },
+        "matlab": {
+            "youtube": "https://www.youtube.com/results?search_query=matlab+tutorial",
+            "course": "https://www.classcentral.com/search?q=matlab",
+            "reading": "https://scholar.google.com/scholar?q=matlab"
+        },
+        "python for chemical engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=python+for+chemical+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=python+for+chemical+engineering",
+            "reading": "https://scholar.google.com/scholar?q=python+for+chemical+engineering"
+        },
+        "data analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=data+analysis+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=data+analysis",
+            "reading": "https://scholar.google.com/scholar?q=data+analysis"
+        },
+        "machine learning for process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=machine+learning+for+process+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=machine+learning+for+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=machine+learning+for+process+engineering"
+        },
+        "process optimization": {
+            "youtube": "https://www.youtube.com/results?search_query=process+optimization+tutorial",
+            "course": "https://www.coursera.org/search?query=process+optimization",
+            "reading": "https://scholar.google.com/scholar?q=process+optimization"
+        },
+        "six sigma": {
+            "youtube": "https://www.youtube.com/results?search_query=six+sigma+tutorial",
+            "course": "https://www.classcentral.com/search?q=six+sigma",
+            "reading": "https://scholar.google.com/scholar?q=six+sigma"
+        },
+        "lean manufacturing": {
+            "youtube": "https://www.youtube.com/results?search_query=lean+manufacturing+tutorial",
+            "course": "https://www.edx.org/search?q=lean+manufacturing",
+            "reading": "https://scholar.google.com/scholar?q=lean+manufacturing"
+        },
+        "piping and instrumentation diagram": {
+            "youtube": "https://www.youtube.com/results?search_query=piping+and+instrumentation+diagram+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=piping+and+instrumentation+diagram",
+            "reading": "https://scholar.google.com/scholar?q=piping+and+instrumentation+diagram"
+        },
+        "hazop": {
+            "youtube": "https://www.youtube.com/results?search_query=hazop+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=hazop",
+            "reading": "https://scholar.google.com/scholar?q=hazop"
+        },
+        "process safety management": {
+            "youtube": "https://www.youtube.com/results?search_query=process+safety+management+tutorial",
+            "course": "https://www.coursera.org/search?query=process+safety+management",
+            "reading": "https://scholar.google.com/scholar?q=process+safety+management"
+        },
+        "risk assessment": {
+            "youtube": "https://www.youtube.com/results?search_query=risk+assessment+tutorial",
+            "course": "https://www.classcentral.com/search?q=risk+assessment",
+            "reading": "https://scholar.google.com/scholar?q=risk+assessment"
+        },
+        "environmental engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=environmental+engineering+tutorial",
+            "course": "https://www.edx.org/search?q=environmental+engineering",
+            "reading": "https://scholar.google.com/scholar?q=environmental+engineering"
+        },
+        "wastewater treatment": {
+            "youtube": "https://www.youtube.com/results?search_query=wastewater+treatment+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=wastewater+treatment",
+            "reading": "https://scholar.google.com/scholar?q=wastewater+treatment"
+        },
+        "renewable energy systems": {
+            "youtube": "https://www.youtube.com/results?search_query=renewable+energy+systems+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=renewable+energy+systems",
+            "reading": "https://scholar.google.com/scholar?q=renewable+energy+systems"
+        },
+        "biochemical engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=biochemical+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=biochemical+engineering",
+            "reading": "https://scholar.google.com/scholar?q=biochemical+engineering"
+        },
+        "bioprocess engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=bioprocess+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=bioprocess+engineering",
+            "reading": "https://scholar.google.com/scholar?q=bioprocess+engineering"
+        },
+        "nanotechnology": {
+            "youtube": "https://www.youtube.com/results?search_query=nanotechnology+tutorial",
+            "course": "https://www.edx.org/search?q=nanotechnology",
+            "reading": "https://scholar.google.com/scholar?q=nanotechnology"
+        },
+        "polymer engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=polymer+engineering+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=polymer+engineering",
+            "reading": "https://scholar.google.com/scholar?q=polymer+engineering"
+        },
+        "petroleum refining": {
+            "youtube": "https://www.youtube.com/results?search_query=petroleum+refining+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=petroleum+refining",
+            "reading": "https://scholar.google.com/scholar?q=petroleum+refining"
+        },
+        "petrochemical engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=petrochemical+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=petrochemical+engineering",
+            "reading": "https://scholar.google.com/scholar?q=petrochemical+engineering"
+        },
+        "catalysis": {
+            "youtube": "https://www.youtube.com/results?search_query=catalysis+tutorial",
+            "course": "https://www.classcentral.com/search?q=catalysis",
+            "reading": "https://scholar.google.com/scholar?q=catalysis"
+        },
+        "separation processes": {
+            "youtube": "https://www.youtube.com/results?search_query=separation+processes+tutorial",
+            "course": "https://www.edx.org/search?q=separation+processes",
+            "reading": "https://scholar.google.com/scholar?q=separation+processes"
+        },
+        "distillation design": {
+            "youtube": "https://www.youtube.com/results?search_query=distillation+design+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=distillation+design",
+            "reading": "https://scholar.google.com/scholar?q=distillation+design"
+        },
+        "membrane technology": {
+            "youtube": "https://www.youtube.com/results?search_query=membrane+technology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=membrane+technology",
+            "reading": "https://scholar.google.com/scholar?q=membrane+technology"
+        },
+        "electrochemical engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=electrochemical+engineering+tutorial",
+            "course": "https://www.coursera.org/search?query=electrochemical+engineering",
+            "reading": "https://scholar.google.com/scholar?q=electrochemical+engineering"
+        },
+        "battery technology": {
+            "youtube": "https://www.youtube.com/results?search_query=battery+technology+tutorial",
+            "course": "https://www.classcentral.com/search?q=battery+technology",
+            "reading": "https://scholar.google.com/scholar?q=battery+technology"
+        },
+        "hydrogen production": {
+            "youtube": "https://www.youtube.com/results?search_query=hydrogen+production+tutorial",
+            "course": "https://www.edx.org/search?q=hydrogen+production",
+            "reading": "https://scholar.google.com/scholar?q=hydrogen+production"
+        },
+        "carbon capture technology": {
+            "youtube": "https://www.youtube.com/results?search_query=carbon+capture+technology+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=carbon+capture+technology",
+            "reading": "https://scholar.google.com/scholar?q=carbon+capture+technology"
+        },
+        "sustainable process engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=sustainable+process+engineering+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=sustainable+process+engineering",
+            "reading": "https://scholar.google.com/scholar?q=sustainable+process+engineering"
+        },
+        "energy management": {
+            "youtube": "https://www.youtube.com/results?search_query=energy+management+tutorial",
+            "course": "https://www.coursera.org/search?query=energy+management",
+            "reading": "https://scholar.google.com/scholar?q=energy+management"
+        },
+        "industrial automation": {
+            "youtube": "https://www.youtube.com/results?search_query=industrial+automation+tutorial",
+            "course": "https://www.classcentral.com/search?q=industrial+automation",
+            "reading": "https://scholar.google.com/scholar?q=industrial+automation"
+        },
+        "plc programming": {
+            "youtube": "https://www.youtube.com/results?search_query=plc+programming+tutorial",
+            "course": "https://www.edx.org/search?q=plc+programming",
+            "reading": "https://scholar.google.com/scholar?q=plc+programming"
+        },
+        "distributed control systems": {
+            "youtube": "https://www.youtube.com/results?search_query=distributed+control+systems+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=distributed+control+systems",
+            "reading": "https://scholar.google.com/scholar?q=distributed+control+systems"
+        },
+        "digital twin technology": {
+            "youtube": "https://www.youtube.com/results?search_query=digital+twin+technology+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=digital+twin+technology",
+            "reading": "https://scholar.google.com/scholar?q=digital+twin+technology"
+        },
+        "industry 4.0": {
+            "youtube": "https://www.youtube.com/results?search_query=industry+4.0+tutorial",
+            "course": "https://www.coursera.org/search?query=industry+4.0",
+            "reading": "https://scholar.google.com/scholar?q=industry+4.0"
+        },
+        "supply chain management": {
+            "youtube": "https://www.youtube.com/results?search_query=supply+chain+management+tutorial",
+            "course": "https://www.classcentral.com/search?q=supply+chain+management",
+            "reading": "https://scholar.google.com/scholar?q=supply+chain+management"
+        },
+        "project management": {
+            "youtube": "https://www.youtube.com/results?search_query=project+management+tutorial",
+            "course": "https://www.edx.org/search?q=project+management",
+            "reading": "https://scholar.google.com/scholar?q=project+management"
+        },
+        "quality control": {
+            "youtube": "https://www.youtube.com/results?search_query=quality+control+tutorial",
+            "course": "https://onlinecourses.nptel.ac.in/explorer/search?keyword=quality+control",
+            "reading": "https://scholar.google.com/scholar?q=quality+control"
+        },
+        "root cause analysis": {
+            "youtube": "https://www.youtube.com/results?search_query=root+cause+analysis+tutorial",
+            "course": "https://www.udemy.com/courses/search/?q=root+cause+analysis",
+            "reading": "https://scholar.google.com/scholar?q=root+cause+analysis"
+        },
+        "technical report writing": {
+            "youtube": "https://www.youtube.com/results?search_query=technical+report+writing+tutorial",
+            "course": "https://www.coursera.org/search?query=technical+report+writing",
+            "reading": "https://scholar.google.com/scholar?q=technical+report+writing"
+        },
+        "process design engineering": {
+            "youtube": "https://www.youtube.com/results?search_query=process+design+engineering+tutorial",
+            "course": "https://www.classcentral.com/search?q=process+design+engineering",
+            "reading": "https://scholar.google.com/scholar?q=process+design+engineering"
+        }
     }
 }
