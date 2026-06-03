@@ -3,6 +3,7 @@ from flask_cors import CORS
 import spacy
 import fitz
 import pytesseract
+import re
 from pdf2image import convert_from_bytes
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -184,7 +185,6 @@ def generate_roadmap(missing_skills):
 @app.route('/api/analyze', methods=['POST'])
 def analyze():
     try:
-        import re # Ensures Regex is loaded for the Smart Adapter
 
         if 'resume' not in request.files:
             return jsonify({"error": "No resume uploaded"}), 400
@@ -199,8 +199,10 @@ def analyze():
 
         job_desc = request.form.get('jobDescription', '')
         
-        # 💥 THE NEWLINE FIX: Converts vertical lists to comma-separated lists automatically
+        # 💥 THE NEWLINE FIX
         job_desc = job_desc.replace('\n', ',')
+        # 💥 THE COLLISION FIX: Uses Regex to safely replace without destroying capital letters for AWS/GCP
+        job_desc = re.sub(r'(?i)version control systems', 'version control', job_desc)
         
         resume_text = extract_text(file)
 
@@ -269,7 +271,6 @@ def analyze():
 
         try:
             with open("server_logs.txt", "a") as log_file:
-                from datetime import datetime
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 log_file.write(f"[{current_time}] Resume Processed | Score: {score}%\n")
             print(f"📊 Analytics: Successfully logged {score}% to server_logs.txt")
