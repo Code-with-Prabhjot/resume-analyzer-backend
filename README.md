@@ -53,7 +53,8 @@ If you want to run this project locally, follow these steps:
 
 ---
 
-## 👥 Contributors
+### 👥 Contributors
 
-* **Prabhjot Singh** - Backend, AI/NLP Engineering & Data Pipeline
+* **Prabhjot Singh** - Lead Backend Architecture & Data Pipeline Integration
 * **Manleen Kaur** - Frontend Architecture & UI/UX Design
+* **Hamsika Challa** - Initial NLP Pipeline & Similarity Scoring
