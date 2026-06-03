@@ -57,4 +57,4 @@ If you want to run this project locally, follow these steps:
 
 * **Prabhjot Singh** - Core System Architecture, AI/NLP Engine & Backend Logic
 * **Manleen Kaur** - Frontend Architecture, UI/UX Design & Client Integration
-* **HC** - Auxiliary Python Scripting & Domain Data Curation
+* **Hamsika Challa** - Auxiliary Python Scripting & Domain Data Curation
