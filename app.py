@@ -184,6 +184,8 @@ def generate_roadmap(missing_skills):
 @app.route('/api/analyze', methods=['POST'])
 def analyze():
     try:
+        import re # Ensures Regex is loaded for the Smart Adapter
+
         if 'resume' not in request.files:
             return jsonify({"error": "No resume uploaded"}), 400
 
@@ -196,34 +198,66 @@ def analyze():
             return jsonify({"error": "Invalid format. Please upload a .pdf file!"}), 400
 
         job_desc = request.form.get('jobDescription', '')
+        
+        # 💥 THE NEWLINE FIX: Converts vertical lists to comma-separated lists automatically
+        job_desc = job_desc.replace('\n', ',')
+        
         resume_text = extract_text(file)
 
         if not resume_text:
-            print("🛡️ BOUNCER: Blocked unreadable/image-based PDF.")
             return jsonify({
                 "error": "UNREADABLE_PDF",
-                "message": "We could not read text from this PDF, even after OCR. Please upload a clearer PDF or a text-based PDF."
+                "message": "We could not read text from this PDF, even after OCR."
             }), 400
 
         clean_resume = preprocess(resume_text)
         clean_jd = preprocess(job_desc.lower())
 
+        # 1. Base Extraction from your Master Database
         resume_skills = extract_skills(clean_resume)
         jd_skills = extract_skills(clean_jd)
 
-        # 💥 THE JD FORCER: Capture comma-separated skills in JD even if not in DB
-        raw_jd_list = [s.strip().lower() for s in job_desc.split(',') if s.strip()]
-        for custom_skill in raw_jd_list:
-            if len(custom_skill) > 1 and len(custom_skill.split()) <= 3:
-                jd_skills.append(custom_skill)
-                # Safety check: If we forced it into the JD, check if it's physically in the resume text
-                if custom_skill in clean_resume:
-                    resume_skills.append(custom_skill)
+        # 💥 THE CURATED NOISE FILTER 💥
+        NOISE_WORDS = {
+            'developing', 'maintainability', 'testing', 'designers', 'scalable', 
+            'dynamic', 'functional', 'debug', 'efficient', 'test', 'read', 
+            'software engineering', 'experience', 'knowledge', 'understanding', 
+            'ability', 'responsible', 'required', 'preferred', 'strong', 
+            'excellent', 'proven', 'innovative', 'complex', 'solutions', 
+            'fast-paced', 'environment', 'track record', 'demonstrated', 
+            'working', 'skills', 'cross-functional', 'highly', 'motivated', 
+            'seeking', 'join', 'team', 'lifecycle', 'practices'
+        }
 
-        # Remove any duplicates created by the forcer
-        jd_skills = list(set(jd_skills))
-        resume_skills = list(set(resume_skills))
+        # 💥 THE BULLETPROOF JD ADAPTER 💥
+        # SCENARIO A: User typed a comma-separated list or vertical list (No sentences)
+        if ',' in job_desc and '.' not in job_desc:
+            raw_jd_list = [s.strip().lower() for s in job_desc.split(',')]
+            for custom_skill in raw_jd_list:
+                if len(custom_skill.split()) <= 3 and custom_skill not in NOISE_WORDS:
+                    jd_skills.append(custom_skill)
+                    
+        # SCENARIO B: User pasted a full paragraph (Contains sentences)
+        else:
+            # We ignore commas so we don't catch adjectives. 
+            # We use Regex to hunt for Tech Acronyms (e.g., AWS, GCP, CI/CD) and Tech Symbols (C++, C#)
+            custom_tech = re.findall(r'\b[A-Z]{2,}(?:/[A-Z]{2,})?\b|\b[a-zA-Z]+[+#]+', job_desc)
+            for tech in custom_tech:
+                tech_lower = tech.lower()
+                if tech_lower not in NOISE_WORDS:
+                    jd_skills.append(tech_lower)
 
+        # Clean duplicates and scrub noise words
+        resume_skills = [s for s in list(set(resume_skills)) if s.lower() not in NOISE_WORDS]
+        jd_skills = [s for s in list(set(jd_skills)) if s.lower() not in NOISE_WORDS]
+
+        # 🛡️ THE SAFETY NET: Give the candidate credit!
+        # If the adapter forced a custom skill into the JD, check if it exists in the resume text
+        for skill in jd_skills:
+            if skill not in resume_skills and skill in clean_resume:
+                resume_skills.append(skill)
+
+        # Calculate Matches
         matched_skills = list(set(resume_skills) & set(jd_skills))
         missing_skills = list(set(jd_skills) - set(resume_skills))
 
@@ -231,19 +265,17 @@ def analyze():
         score = calculate_score(similarity, matched_skills, len(jd_skills))
         roadmap = generate_roadmap(missing_skills)
         
-        # --- NEW PERFECT MATCH FLAG ---
         is_perfect = len(missing_skills) == 0
 
         try:
             with open("server_logs.txt", "a") as log_file:
-                from datetime import datetime # Ensure this is imported at the top of app.py
+                from datetime import datetime
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 log_file.write(f"[{current_time}] Resume Processed | Score: {score}%\n")
             print(f"📊 Analytics: Successfully logged {score}% to server_logs.txt")
         except Exception as log_error:
             print("Warning: Could not write to log file -", log_error)
 
-        # --- UPDATED JSON RESPONSE TO MATCH HER FRONTEND EXACTLY ---
         return jsonify({
             "match_score": score,
             "nailed_skills": matched_skills,
