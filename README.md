@@ -55,5 +55,6 @@ If you want to run this project locally, follow these steps:
 
 ## 👥 Contributors
 
-* **Prabhjot Singh** - Backend, AI/NLP Engineering & Data Pipeline
-* **Manleen Kaur** - Frontend Architecture & UI/UX Design
+* **Prabhjot Singh** - Core System Architecture, AI/NLP Engine & Backend Logic
+* **Manleen Kaur** - Frontend Architecture, UI/UX Design & Client Integration
+* **HC** - Auxiliary Python Scripting & Domain Data Curation
