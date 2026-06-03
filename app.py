@@ -76,21 +76,27 @@ def preprocess(text):
     return " ".join(cleaned)
 
 def extract_skills(text):
+    text_lower = text.lower() # FIX 1: Create a lowercase version of the full text
     doc = nlp(text)
     
-    tokens = set([token.text.lower().strip('-.,') for token in doc])
+    # FIX 2: Added brackets and quotes to the strip to catch skills hidden in parentheses
+    tokens = set([token.text.lower().strip('-.,()[]{}"\'') for token in doc])
     
     found = set()
     normalized_tokens = set([normalize_skill(token) for token in tokens])
 
     for skill in SKILLS_DB:
-        skill_tokens = skill.lower().split()
+        skill_lower = skill.lower() # Ensure database skill is perfectly lowercase
+        skill_tokens = skill_lower.split()
+        
         if len(skill_tokens) > 1:
-            if skill in text:
+            # FIX 3: Check against text_lower, NOT the original case-sensitive text!
+            if skill_lower in text_lower:
                 found.add(skill)
         else:
-            if skill in tokens or skill in normalized_tokens:
+            if skill_lower in tokens or skill_lower in normalized_tokens:
                 found.add(skill)
+                
     return list(found)
 
 def compute_similarity(resume, jd):
@@ -107,13 +113,14 @@ def calculate_score(similarity, matched, total_required):
         
     skill_ratio = len(matched) / total_required
     
-    # 1. Use highly tuned weights (85% Skills / 15% Text Context)
-    base_score = (0.15 * similarity) + (0.85 * skill_ratio * 100)
+    # 1. NEW WEIGHTS: 95% Skills / 5% Text Context
+    # This guarantees a 100% skill match will score at least a 95%
+    base_score = (0.05 * similarity) + (0.95 * skill_ratio * 100)
     
-    # 2. ANTI-CHEAT LOGIC: Detect plain text keyword stuffing
-    # If they match skills but text similarity is under 10%, they are cheating
-    if skill_ratio > 0.70 and similarity < 10.0:
-        # Apply a flat 25 point penalty for lack of context/experience
+    # 2. ANTI-CHEAT LOGIC: Tweaked threshold
+    # Lowered to 2.0 so short resumes survive, but pure copy-paste keyword dumps fail.
+    if skill_ratio > 0.70 and similarity < 2.0:
+        # Apply a flat 25 point penalty for pure keyword stuffing
         final_score = base_score - 25.0
         print("🚨 ANTI-CHEAT: Keyword stuffing detected (Low similarity relative to high skills). Penalty applied.")
     else:
@@ -204,6 +211,19 @@ def analyze():
         resume_skills = extract_skills(clean_resume)
         jd_skills = extract_skills(clean_jd)
 
+        # 💥 THE JD FORCER: Capture comma-separated skills in JD even if not in DB
+        raw_jd_list = [s.strip().lower() for s in job_desc.split(',') if s.strip()]
+        for custom_skill in raw_jd_list:
+            if len(custom_skill) > 1 and len(custom_skill.split()) <= 3:
+                jd_skills.append(custom_skill)
+                # Safety check: If we forced it into the JD, check if it's physically in the resume text
+                if custom_skill in clean_resume:
+                    resume_skills.append(custom_skill)
+
+        # Remove any duplicates created by the forcer
+        jd_skills = list(set(jd_skills))
+        resume_skills = list(set(resume_skills))
+
         matched_skills = list(set(resume_skills) & set(jd_skills))
         missing_skills = list(set(jd_skills) - set(resume_skills))
 
@@ -216,6 +236,7 @@ def analyze():
 
         try:
             with open("server_logs.txt", "a") as log_file:
+                from datetime import datetime # Ensure this is imported at the top of app.py
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 log_file.write(f"[{current_time}] Resume Processed | Score: {score}%\n")
             print(f"📊 Analytics: Successfully logged {score}% to server_logs.txt")
