@@ -234,7 +234,8 @@ def analyze():
         # 💥 THE BULLETPROOF JD ADAPTER 💥
         # SCENARIO A: User typed a comma-separated list or vertical list (No sentences)
         if ',' in job_desc and '.' not in job_desc:
-            raw_jd_list = [s.strip().lower() for s in job_desc.split(',')]
+            # 💥 THE FIX: Added 'if s.strip()' here to instantly destroy empty strings!
+            raw_jd_list = [s.strip().lower() for s in job_desc.split(',') if s.strip()]
             for custom_skill in raw_jd_list:
                 if len(custom_skill.split()) <= 3 and custom_skill not in NOISE_WORDS:
                     jd_skills.append(custom_skill)
