@@ -268,7 +268,7 @@ def analyze():
         score = calculate_score(similarity, matched_skills, len(jd_skills))
         roadmap = generate_roadmap(missing_skills)
         
-        is_perfect = len(missing_skills) == 0
+        is_perfect = len(missing_skills) == 0 and len(jd_skills) > 0
 
         try:
             with open("server_logs.txt", "a") as log_file:
