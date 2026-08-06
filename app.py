@@ -10,6 +10,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import json
 from datetime import datetime
 from utils import SKILLS_DB, normalize_skill
+# Import the completely isolated V2 blueprint
+from api_v2 import v2_bp
 
 app = Flask(__name__)
 CORS(app, origins=[
@@ -17,6 +19,9 @@ CORS(app, origins=[
     "http://localhost:3000",
     "http://localhost:5173" 
 ])
+
+# Register it with the main application
+app.register_blueprint(v2_bp)
 
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024
 
