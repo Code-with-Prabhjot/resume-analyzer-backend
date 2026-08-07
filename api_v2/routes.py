@@ -1,6 +1,7 @@
-from flask import request, jsonify
+from flask import request, jsonify, g
 from . import v2_bp
-from .middleware import validate_and_sanitize
+from .middleware import validate_and_sanitize, generate_jwt
+from .database import save_analysis_result, get_user_history_from_db, get_or_create_user, get_missing_skills_for_analysis
 import uuid
 
 # -----------------------------------------------------------------------------
@@ -15,12 +16,16 @@ def auth_user():
     data = request.get_json() or {}
     provider = data.get('provider')
     token = data.get('token')
+    
+    if not provider or not token:
+        return jsonify({"error": "provider and token are required"}), 400
 
-    # TODO: Implement token validation and user provisioning logic
+    user_id = get_or_create_user(provider, token)
+    session_jwt = generate_jwt(user_id)
 
     return jsonify({
-        "user_id": str(uuid.uuid4()),
-        "session_jwt": "mocked_session_jwt_token_here"
+        "user_id": user_id,
+        "session_jwt": session_jwt
     }), 200
 
 # -----------------------------------------------------------------------------
@@ -39,8 +44,13 @@ def analyze_resume():
 
     # TODO: Implement resume parsing, TF-IDF scoring, gap analysis, and roadmap generation
 
-    return jsonify({
-        "analysis_id": str(uuid.uuid4()),
+    # For now, we use mock output but save it properly to the database
+    analysis_id = str(uuid.uuid4())
+    # Retrieve user_id from the validated JWT token in the Flask g context, fallback to mock if bypassed
+    user_id = getattr(g, 'user_id', "default-test-user-id")
+
+    analysis_data = {
+        "analysis_id": analysis_id,
         "overall_score": 85.5,
         "skills_found": ["Python", "Flask", "Machine Learning"],
         "skills_missing": ["Docker", "Kubernetes", "Redis"],
@@ -49,7 +59,12 @@ def analyze_resume():
             "Kubernetes": "https://example.com/course/k8s",
             "Redis": "https://example.com/course/redis"
         }
-    }), 200
+    }
+    
+    # Persist to database
+    save_analysis_result(user_id, analysis_data)
+
+    return jsonify(analysis_data), 200
 
 # -----------------------------------------------------------------------------
 # 3. Fetch User History
@@ -62,22 +77,17 @@ def get_user_history(user_id):
     """
     # Authorization header is checked in middleware
 
-    # TODO: Implement database fetch for user history
+    history_records = get_user_history_from_db(user_id)
+    
+    # Calculate a simple trend delta (last score minus previous score) if enough data
+    trend_delta = 0.0
+    if len(history_records) >= 2:
+        # Since they are ordered DESC by timestamp (newest first)
+        trend_delta = history_records[0]['overall_score'] - history_records[1]['overall_score']
 
     return jsonify({
-        "history": [
-            {
-                "analysis_id": str(uuid.uuid4()),
-                "date": "2026-08-01T10:00:00Z",
-                "overall_score": 75.0
-            },
-            {
-                "analysis_id": str(uuid.uuid4()),
-                "date": "2026-08-06T10:00:00Z",
-                "overall_score": 85.5
-            }
-        ],
-        "trend_delta": 10.5
+        "history": history_records,
+        "trend_delta": round(trend_delta, 2)
     }), 200
 
 # -----------------------------------------------------------------------------
@@ -91,23 +101,40 @@ def generate_interview():
     """
     data = request.get_json() or {}
     analysis_id = data.get('analysis_id')
-    difficulty = data.get('difficulty')
+    difficulty = data.get('difficulty', 'Beginner')
 
-    # TODO: Fetch missing skills based on analysis_id and generate mock questions
+    if not analysis_id:
+        return jsonify({"error": "analysis_id is required"}), 400
 
+    skills_missing = get_missing_skills_for_analysis(analysis_id)
+    if not skills_missing:
+        # Default fallback for testing if no analysis exists
+        skills_missing = ["Docker", "Kubernetes"]
+
+    questions = []
+    answers = []
+
+    # Dynamically generate questions based on missing skills and difficulty
+    for skill in skills_missing:
+        if difficulty == "Hard":
+            questions.append(f"Explain the most complex edge case you've encountered with {skill} and how you architected a solution.")
+            answers.append(f"Focus on deep architectural tradeoffs, performance tuning, or multi-threading context in {skill}.")
+        elif difficulty == "Intermediate":
+            questions.append(f"How do you typically implement best practices for {skill} in a production environment?")
+            answers.append(f"Discuss standard production setups, logging, and error handling for {skill}.")
+        else:
+            questions.append(f"What is {skill} and what primary problem does it solve in modern software development?")
+            answers.append(f"Define {skill} and provide a basic use-case example.")
+            
+        if len(questions) >= 5:
+            break
+            
+    # Pad if we have fewer than 5 questions
+    while len(questions) < 5:
+        questions.append("General: How do you approach learning a new technology related to your tech stack?")
+        answers.append("Discuss reading documentation, building POCs, and reviewing source code.")
+        
     return jsonify({
-        "questions": [
-            "Explain how Docker containers differ from virtual machines.",
-            "What are Kubernetes Pods and how do they communicate?",
-            "How does Redis handle data persistence?",
-            "Can you describe a use case where you would choose Redis over Memcached?",
-            "What is a Dockerfile and what are its key instructions?"
-        ],
-        "suggested_answers": [
-            "Containers share the host OS kernel, making them lightweight, whereas VMs run a full guest OS.",
-            "A Pod is the smallest deployable compute unit in K8s, containing one or more containers that share network and storage.",
-            "Redis offers RDB (point-in-time snapshots) and AOF (append-only file logs) for persistence.",
-            "Redis is preferred when you need complex data structures (lists, sets) or persistence, as Memcached only supports simple strings.",
-            "A Dockerfile is a text document with commands to assemble an image. Key instructions include FROM, RUN, COPY, and CMD."
-        ]
+        "questions": questions[:5],
+        "suggested_answers": answers[:5]
     }), 200
