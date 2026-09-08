@@ -4,8 +4,28 @@ import base64
 import json
 import hmac
 import hashlib
+import time
+import os
 
 SECRET_KEY = "my_super_secret_jwt_key_for_v2" # Mock secret for V2
+
+# -----------------------------------------------------------------------------
+# Rate Limiting State
+# -----------------------------------------------------------------------------
+IP_REQUESTS = {}
+
+def is_rate_limited(ip):
+    now = time.time()
+    if ip not in IP_REQUESTS:
+        IP_REQUESTS[ip] = []
+    
+    IP_REQUESTS[ip] = [t for t in IP_REQUESTS[ip] if now - t < 60]
+    
+    if len(IP_REQUESTS[ip]) >= 5:
+        return True
+    
+    IP_REQUESTS[ip].append(now)
+    return False
 
 def generate_jwt(user_id):
     """Generates a mock JWT signed with HMAC-SHA256"""
@@ -68,17 +88,27 @@ def validate_and_sanitize():
                             g.user_id = user_id
             
             # 3. File Type Validation (Magic number check for PDFs only)
-            # Placeholder: Check if the uploaded file is a valid PDF using magic numbers.
-            # if 'resume' in request.files:
-            #     file = request.files['resume']
-            #     if not is_valid_pdf(file):
-            #         abort(415, description="Unsupported Media Type: Only PDFs are allowed")
+            if 'resume' in request.files:
+                file = request.files['resume']
+                
+                # 5MB Limit check
+                file.seek(0, os.SEEK_END)
+                size = file.tell()
+                file.seek(0)
+                if size > 5 * 1024 * 1024:
+                    abort(413, description="Payload Too Large: File exceeds 5MB")
+                
+                # Magic bytes check for %PDF
+                magic = file.read(4)
+                file.seek(0)
+                if magic != b'%PDF':
+                    abort(415, description="Unsupported Media Type: Only PDFs are allowed")
 
-            # 4. Rate Limit Check (Redis IP tracker)
-            # Placeholder: Check rate limit for the client's IP.
-            client_ip = request.remote_addr
-            # if is_rate_limited(client_ip):
-            #     abort(429, description="Too Many Requests: Rate limit exceeded")
+            # 4. Rate Limit Check (In-memory IP tracker)
+            if request.path == '/api/v2/analyze':
+                client_ip = request.remote_addr or "unknown"
+                if is_rate_limited(client_ip):
+                    abort(429, description="Too Many Requests: Rate limit exceeded")
 
             return f(*args, **kwargs)
         return decorated_function
