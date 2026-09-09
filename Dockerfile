@@ -1,5 +1,5 @@
 # 1. Start with a lightweight Linux/Python computer
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 # 2. Install Tesseract-OCR and Poppler (needed for pdf2image)
 RUN apt-get update && apt-get install -y \
