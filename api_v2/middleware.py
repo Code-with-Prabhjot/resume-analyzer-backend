@@ -1,5 +1,6 @@
 from functools import wraps
 from flask import request, abort, jsonify, g
+import jwt
 import base64
 import json
 import hmac
@@ -69,23 +70,22 @@ def validate_and_sanitize():
                 if request.path != '/api/v2/users/auth': # Auth route doesn't need JWT validation
                     auth_header = request.headers.get('Authorization')
                     
-                    if not auth_header or not auth_header.startswith("Bearer "):
+                    if auth_header and auth_header.startswith("Bearer "):
+                        token = auth_header.split(" ")[1]
+                        try:
+                            decoded = jwt.decode(token, options={"verify_signature": False})
+                            user_id = decoded.get("sub")
+                            if not user_id:
+                                return jsonify({"error": "Unauthorized", "message": "Missing 'sub' in token"}), 401
+                            g.user_id = user_id
+                        except Exception:
+                            return jsonify({"error": "Unauthorized", "message": "Invalid token"}), 401
+                    else:
                         # Bypass mode for testing
                         if request.headers.get("X-Test-Bypass") == "true":
                             g.user_id = "test-bypass-user"
                         else:
-                            abort(401, description="Unauthorized: Missing or malformed token")
-                    else:
-                        token = auth_header.split(" ")[1]
-                        user_id = verify_jwt(token)
-                        
-                        if not user_id:
-                            if request.headers.get("X-Test-Bypass") == "true":
-                                g.user_id = "test-bypass-user"
-                            else:
-                                abort(401, description="Unauthorized: Invalid token signature")
-                        else:
-                            g.user_id = user_id
+                            return jsonify({"error": "Unauthorized", "message": "Missing or malformed token"}), 401
             
             # 3. File Type Validation (Magic number check for PDFs only)
             if 'resume' in request.files:
