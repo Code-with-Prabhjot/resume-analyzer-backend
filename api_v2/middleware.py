@@ -73,7 +73,13 @@ def validate_and_sanitize():
                     if auth_header and auth_header.startswith("Bearer "):
                         token = auth_header.split(" ")[1]
                         try:
-                            decoded = jwt.decode(token, options={"verify_signature": False})
+                            supabase_secret = os.environ.get("SUPABASE_JWT_SECRET")
+                            if supabase_secret:
+                                decoded = jwt.decode(token, key=supabase_secret, algorithms=["HS256"], audience="authenticated")
+                            else:
+                                print("WARNING: SUPABASE_JWT_SECRET not set, decoding token without signature verification.")
+                                decoded = jwt.decode(token, options={"verify_signature": False})
+                                
                             user_id = decoded.get("sub")
                             if not user_id:
                                 return jsonify({"error": "Unauthorized", "message": "Missing 'sub' in token"}), 401
