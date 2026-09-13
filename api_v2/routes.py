@@ -5,6 +5,16 @@ from .database import save_analysis_result, get_user_history_from_db, get_or_cre
 import uuid
 
 # -----------------------------------------------------------------------------
+# 0. Healthcheck / Ping
+# -----------------------------------------------------------------------------
+@v2_bp.route('/ping', methods=['GET'])
+def ping():
+    """
+    Simple unauthenticated endpoint to wake up the Render free tier.
+    """
+    return jsonify({"status": "awake"}), 200
+
+# -----------------------------------------------------------------------------
 # Phase 4: In-Memory Caching
 # -----------------------------------------------------------------------------
 JD_CACHE = {}
