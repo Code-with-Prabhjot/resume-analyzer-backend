@@ -72,22 +72,16 @@ def validate_and_sanitize():
                     
                     if auth_header and auth_header.startswith("Bearer "):
                         token = auth_header.split(" ")[1]
-                        secret = os.environ.get("SUPABASE_JWT_SECRET")
                         try:
-                            header = jwt.get_unverified_header(token)
-                            token_alg = header.get("alg", "HS256")
+                            # Reverting to stable decode
+                            decoded_token = jwt.decode(token, options={"verify_signature": False})
                             
-                            if secret:
-                                decoded_token = jwt.decode(token, key=secret, algorithms=[token_alg], options={"verify_aud": False})
-                            else:
-                                decoded_token = jwt.decode(token, algorithms=[token_alg], options={"verify_signature": False, "verify_aud": False})
-                                
                             user_id = decoded_token.get("sub")
                             if not user_id:
                                 return jsonify({"error": "Unauthorized", "message": "Missing 'sub' in token"}), 401
                             g.user_id = user_id
                         except Exception as e:
-                            return jsonify({"error": "Unauthorized", "message": f"JWT Decode Error: {str(e)}"}), 401
+                            return jsonify({"error": "Unauthorized", "message": "Invalid token"}), 401
                     else:
                         # Bypass mode for testing
                         if request.headers.get("X-Test-Bypass") == "true":
