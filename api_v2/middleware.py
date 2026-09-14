@@ -84,8 +84,8 @@ def validate_and_sanitize():
                             if not user_id:
                                 return jsonify({"error": "Unauthorized", "message": "Missing 'sub' in token"}), 401
                             g.user_id = user_id
-                        except Exception:
-                            return jsonify({"error": "Unauthorized", "message": "Invalid token"}), 401
+                        except Exception as e:
+                            return jsonify({"error": "Unauthorized", "message": f"Invalid token: {str(e)}"}), 401
                     else:
                         # Bypass mode for testing
                         if request.headers.get("X-Test-Bypass") == "true":
