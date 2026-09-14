@@ -75,12 +75,12 @@ def validate_and_sanitize():
                         try:
                             supabase_secret = os.environ.get("SUPABASE_JWT_SECRET")
                             if supabase_secret:
-                                decoded = jwt.decode(token, key=supabase_secret, algorithms=["HS256"], audience="authenticated")
+                                decoded_token = jwt.decode(token, key=os.environ.get("SUPABASE_JWT_SECRET"), algorithms=["HS256"], options={"verify_aud": False})
                             else:
                                 print("WARNING: SUPABASE_JWT_SECRET not set, decoding token without signature verification.")
-                                decoded = jwt.decode(token, options={"verify_signature": False})
+                                decoded_token = jwt.decode(token, options={"verify_signature": False})
                                 
-                            user_id = decoded.get("sub")
+                            user_id = decoded_token.get("sub")
                             if not user_id:
                                 return jsonify({"error": "Unauthorized", "message": "Missing 'sub' in token"}), 401
                             g.user_id = user_id
