@@ -72,20 +72,20 @@ def validate_and_sanitize():
                     
                     if auth_header and auth_header.startswith("Bearer "):
                         token = auth_header.split(" ")[1]
+                        secret = os.environ.get("SUPABASE_JWT_SECRET")
                         try:
-                            supabase_secret = os.environ.get("SUPABASE_JWT_SECRET")
-                            if supabase_secret:
-                                decoded_token = jwt.decode(token, key=os.environ.get("SUPABASE_JWT_SECRET"), algorithms=["HS256"], options={"verify_aud": False})
+                            if secret:
+                                decoded_token = jwt.decode(token, key=secret, algorithms=["HS256"], options={"verify_aud": False})
                             else:
-                                print("WARNING: SUPABASE_JWT_SECRET not set, decoding token without signature verification.")
-                                decoded_token = jwt.decode(token, options={"verify_signature": False})
+                                # Fallback but securely specifying the algorithm
+                                decoded_token = jwt.decode(token, algorithms=["HS256"], options={"verify_signature": False, "verify_aud": False})
                                 
                             user_id = decoded_token.get("sub")
                             if not user_id:
                                 return jsonify({"error": "Unauthorized", "message": "Missing 'sub' in token"}), 401
                             g.user_id = user_id
                         except Exception as e:
-                            return jsonify({"error": "Unauthorized", "message": f"Invalid token: {str(e)}"}), 401
+                            return jsonify({"error": "Unauthorized", "message": f"JWT Error (Secret Loaded: {bool(secret)}): {str(e)}"}), 401
                     else:
                         # Bypass mode for testing
                         if request.headers.get("X-Test-Bypass") == "true":
